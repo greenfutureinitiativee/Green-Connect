@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 export function GreenOracleChat() {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState<{ role: 'user' | 'bot', content: string }[]>([
-        { role: 'bot', content: "Hello! I'm GreenOracle. Ask me anything about environmental issues or LGA governance." }
+        { role: 'bot', content: "Hello! I'm GreenOracle. You can ask me about Nigeria's politics, budget, environmental issues, or how to use this app." }
     ]);
     const [input, setInput] = useState("");
     const [isLoading, setIsLoading] = useState(false);

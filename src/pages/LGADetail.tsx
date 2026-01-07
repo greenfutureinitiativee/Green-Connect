@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { supabase } from "@/lib/supabase";
+
 import { useParams, useNavigate, useSearchParams } from "react-router-dom";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
@@ -13,33 +13,21 @@ import { FloatingCard } from "@/components/FloatingCard";
 import { GlassPanel } from "@/components/GlassPanel";
 import { LGAImageFeed } from "@/components/LGAImageFeed";
 import { LGAService } from "@/services/lga-service";
-import { useAuth } from "@/context/AuthContext";
+
 import type { LGADetails } from "@/types/lga";
 
 const LGADetail = () => {
     const { lgaName, stateName } = useParams<{ lgaName: string; stateName: string }>();
     const navigate = useNavigate();
-    const { user } = useAuth();
+
     const [lgaDetails, setLgaDetails] = useState<LGADetails | null>(null);
     const [loading, setLoading] = useState(true);
-    const [userLgaId, setUserLgaId] = useState<string | null>(null);
+
     const [realtimeAllocations, setRealtimeAllocations] = useState<any[]>([]);
     const [searchParams] = useSearchParams();
     const [activeTab, setActiveTab] = useState("budget");
 
-    useEffect(() => {
-        const fetchUserProfile = async () => {
-            if (user) {
-                const { data } = await supabase
-                    .from('profiles')
-                    .select('lga_id')
-                    .eq('id', user.id)
-                    .single();
-                if (data) setUserLgaId(data.lga_id);
-            }
-        };
-        fetchUserProfile();
-    }, [user]);
+
 
     useEffect(() => {
         if (lgaName && stateName) {

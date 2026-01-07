@@ -5,9 +5,9 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Plus, Trash2, Save, Loader2, RefreshCw } from "lucide-react";
+import { Save, Loader2 } from "lucide-react";
 import { toast } from "sonner";
-import type { GovernanceStructure, ExecutiveRole, LegislativeRole, LGA } from "@/types/lga";
+import type { GovernanceStructure, ExecutiveRole, LGA } from "@/types/lga";
 import React from 'react';
 
 // Error Boundary Component
@@ -46,7 +46,7 @@ const LGAGovernanceForm = () => {
     const [selectedLgaId, setSelectedLgaId] = useState<string>('');
     const [loadingStates, setLoadingStates] = useState(false);
     const [loadingLgas, setLoadingLgas] = useState(false);
-    const [loadingData, setLoadingData] = useState(false);
+    const [, setLoadingData] = useState(false);
     const [saving, setSaving] = useState(false);
 
     // Initial empty governance structure
@@ -122,16 +122,18 @@ const LGAGovernanceForm = () => {
                         const sanitized: GovernanceStructure = {
                             executive: {
                                 chairman: {
-                                    name: '', party: '', title: 'Executive Chairman',
-                                    ...(g.executive?.chairman || {})
+                                    name: g.executive?.chairman?.name || '',
+                                    party: g.executive?.chairman?.party || '',
+                                    title: g.executive?.chairman?.title || 'Executive Chairman'
                                 },
                                 vice_chairman: {
-                                    name: '', party: '', title: 'Vice Chairman',
-                                    ...(g.executive?.vice_chairman || {})
+                                    name: g.executive?.vice_chairman?.name || '',
+                                    party: g.executive?.vice_chairman?.party || '',
+                                    title: g.executive?.vice_chairman?.title || 'Vice Chairman'
                                 },
                                 secretary: {
-                                    name: '', title: 'SLG',
-                                    ...(g.executive?.secretary || {})
+                                    name: g.executive?.secretary?.name || '',
+                                    title: g.executive?.secretary?.title || 'SLG'
                                 },
                                 supervisors: Array.isArray(g.executive?.supervisors) ? g.executive.supervisors : []
                             },
@@ -184,12 +186,14 @@ const LGAGovernanceForm = () => {
         }));
     };
 
+    /*
     const updateLegislative = (field: keyof LegislativeRole, value: any) => {
         setGovernance(prev => ({
             ...prev,
             legislative: { ...prev.legislative, [field]: value }
         }));
     };
+    */
 
     return (
         <ErrorBoundary>

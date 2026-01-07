@@ -7,8 +7,8 @@ import { Badge } from "@/components/ui/badge";
 
 import { Input } from "@/components/ui/input";
 import {
-    Building2, Users, FileBarChart, Search, MapPin,
-    User, Briefcase, ChevronRight, Globe, ArrowRight
+    Building2, FileBarChart, Search, MapPin,
+    User, Briefcase, ChevronRight, Globe
 } from "lucide-react";
 import { federalMinistries, stateData } from "@/data/federalData";
 
