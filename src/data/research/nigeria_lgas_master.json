@@ -1,0 +1,70 @@
+[
+    {
+        "state": "Lagos",
+        "lga": "Ikeja",
+        "lga_id": "NG:LAG:IKEJA",
+        "chairperson": {
+            "name": "Engr. (Dr.) Mojeed Alabi Balogun",
+            "title": "Executive Chairman",
+            "party": "APC",
+            "term_start": "2021-07-27",
+            "term_end": "2025-07-27",
+            "notes": "Mojeed Balogun is the incumbent. Akeem Olalekan Dauda (AKOD) was reported as winner of July 2025 elections in some contexts, but current date is Dec 2025, implying transition. Need to verify sworn-in status.",
+            "source_urls": [
+                "https://ekoplus.ng/ikeja-lg-chairman-presents-2025-budget/",
+                "https://ikejabird.com/akeem-dauda-wins-ikeja-lg-chairmanship-election/"
+            ]
+        },
+        "budget": {
+            "fiscal_year": "2025",
+            "approved_amount_local": 7800000000,
+            "document_url": null,
+            "date_published": "2024-12-22",
+            "source_url": "https://thenationonlineng.net/ikeja-council-boss-presents-n7-8b-budget-for-2025/"
+        },
+        "projects": [
+            {
+                "project_id": "NG:LAG:IKEJA:PRJ:001",
+                "title": "New Administrative Office Complex",
+                "description": "Construction of new administrative office complex and legislative building.",
+                "status": "completed",
+                "start_date": "2023-01-01",
+                "end_date": "2024-12-01",
+                "budgeted_cost_local": null,
+                "funding_source": "LGA",
+                "contractor": null,
+                "evidence_urls": [
+                    "https://echonews.ng/ikeja-council-projects/"
+                ],
+                "confidence_score": 0.9,
+                "verification_notes": "Reported as completed in 2024 review."
+            },
+            {
+                "project_id": "NG:LAG:IKEJA:PRJ:002",
+                "title": "Ikeja Drainage Rehabilitation",
+                "description": "Continuous rehabilitation of primary drainages across 6 wards.",
+                "status": "ongoing",
+                "start_date": "2024-01-01",
+                "end_date": null,
+                "budgeted_cost_local": null,
+                "funding_source": "LGA",
+                "contractor": null,
+                "evidence_urls": [
+                    "https://thenationonlineng.net/ikeja-council-infrastructure/"
+                ],
+                "confidence_score": 0.8,
+                "verification_notes": "Mentioned in 2024 Budget of Continuous Infrastructural Development speech."
+            }
+        ],
+        "contact": {
+            "address": "Ikeja Local Government Secretariat, Obafemi Awolowo Way, Ikeja, Lagos",
+            "website": "https://ikejalga.org"
+        },
+        "confidence_score": 0.85,
+        "last_updated": "2025-12-14",
+        "sources": [
+            "https://thenationonlineng.net/ikeja-council-boss-presents-n7-8b-budget-for-2025/",
+            "https://ekoplus.ng/ikeja-lg-chairman-presents-2025-budget/"
+        ]
+    }
+]
