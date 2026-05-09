@@ -75,16 +75,16 @@ const LGADashboard = () => {
     })).reverse() || [];
 
     return (
-        <div className="container mx-auto p-6 space-y-8">
+        <div className="container mx-auto p-4 md:p-6 space-y-8">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                 <div>
                     <h1 className="text-3xl font-bold tracking-tight">LGA Financial Dashboard</h1>
                     <p className="text-muted-foreground">Monitor allocations, spending, and projects across Nigeria.</p>
                 </div>
 
-                <div className="flex gap-4 w-full md:w-auto">
+                <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
                     <Select onValueChange={setSelectedState} value={selectedState}>
-                        <SelectTrigger className="w-[180px]">
+                        <SelectTrigger className="w-full sm:w-[180px]">
                             <SelectValue placeholder="Select State" />
                         </SelectTrigger>
                         <SelectContent>
@@ -93,7 +93,7 @@ const LGADashboard = () => {
                     </Select>
 
                     <Select onValueChange={setSelectedLgaId} value={selectedLgaId} disabled={!selectedState || loadingLgas}>
-                        <SelectTrigger className="w-[200px]">
+                        <SelectTrigger className="w-full sm:w-[200px]">
                             <SelectValue placeholder={loadingLgas ? "Loading..." : "Select LGA"} />
                         </SelectTrigger>
                         <SelectContent>
@@ -169,18 +169,18 @@ const LGADashboard = () => {
                                 <CardTitle>Allocation Trends</CardTitle>
                                 <CardDescription>Monthly FAAC allocations over time</CardDescription>
                             </CardHeader>
-                            <CardContent className="pl-2">
-                                <div className="h-[300px]">
+                            <CardContent className="px-2 md:px-6">
+                                <div className="h-[250px] md:h-[300px]">
                                     <ResponsiveContainer width="100%" height="100%">
-                                        <BarChart data={chartData}>
-                                            <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
-                                            <XAxis dataKey="period" className="text-xs" />
-                                            <YAxis className="text-xs" tickFormatter={(value) => `₦${(value / 1000000).toFixed(0)}M`} />
+                                        <BarChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                                            <CartesianGrid strokeDasharray="3 3" className="stroke-muted" vertical={false} />
+                                            <XAxis dataKey="period" className="text-[10px]" />
+                                            <YAxis className="text-[10px]" tickFormatter={(value) => `₦${(value / 1e6).toFixed(0)}M`} />
                                             <Tooltip
                                                 formatter={(value: number) => formatCurrency(value)}
-                                                contentStyle={{ backgroundColor: 'hsl(var(--card))', borderColor: 'hsl(var(--border))' }}
+                                                contentStyle={{ backgroundColor: 'hsl(var(--card))', borderColor: 'hsl(var(--border))', fontSize: '12px' }}
                                             />
-                                            <Legend />
+                                            <Legend wrapperStyle={{ fontSize: '10px' }} />
                                             <Bar dataKey="allocation" fill="hsl(var(--primary))" name="Allocation" radius={[4, 4, 0, 0]} />
                                         </BarChart>
                                     </ResponsiveContainer>

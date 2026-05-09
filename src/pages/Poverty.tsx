@@ -23,13 +23,13 @@ const Poverty = () => {
                         <h1 className="text-4xl font-black tracking-tighter sm:text-6xl text-slate-900 dark:text-white">
                             Poverty <span className="text-red-600">Discrepancy</span> Index
                         </h1>
-                        <p className="text-muted-foreground text-lg max-w-2xl font-medium">
+                        <p className="text-muted-foreground text-base md:text-lg max-w-2xl font-medium">
                             Comparing official government poverty claims against independent research and global standard metrics.
                         </p>
                     </div>
-                    <GlassPanel className="p-2 flex gap-2">
+                    <GlassPanel className="p-1 md:p-2 flex gap-2 w-full md:w-auto">
                         <Search className="h-4 w-4 text-muted-foreground mt-2 ml-2" />
-                        <Input placeholder="Search state or region..." className="border-none bg-transparent shadow-none focus-visible:ring-0 w-64" />
+                        <Input placeholder="Search state or region..." className="border-none bg-transparent shadow-none focus-visible:ring-0 flex-1 md:w-64" />
                     </GlassPanel>
                 </div>
 
@@ -77,21 +77,21 @@ const Poverty = () => {
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
                     {/* Region Comparison */}
-                    <GlassPanel className="p-6">
+                    <GlassPanel className="p-4 md:p-6">
                         <div className="flex justify-between items-center mb-6">
-                            <h3 className="text-xl font-bold">Regional Discrepancy</h3>
-                            <Badge variant="outline">By Geo-Political Zone</Badge>
+                            <h3 className="text-lg md:text-xl font-bold">Regional Discrepancy</h3>
+                            <Badge variant="outline">Zones</Badge>
                         </div>
-                        <div className="h-[400px] w-full">
+                        <div className="h-[300px] md:h-[400px] w-full">
                             <ResponsiveContainer width="100%" height="100%">
-                                <BarChart data={povertyData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+                                <BarChart data={povertyData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
                                     <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
-                                    <XAxis dataKey="region" axisLine={false} tickLine={false} tick={{ fontSize: 12 }} />
-                                    <YAxis axisLine={false} tickLine={false} tick={{ fontSize: 12 }} unit="%" />
+                                    <XAxis dataKey="region" axisLine={false} tickLine={false} tick={{ fontSize: 10 }} />
+                                    <YAxis axisLine={false} tickLine={false} tick={{ fontSize: 10 }} unit="%" />
                                     <Tooltip 
                                         contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)' }}
                                     />
-                                    <Legend iconType="circle" wrapperStyle={{ paddingTop: '20px' }} />
+                                    <Legend iconType="circle" wrapperStyle={{ paddingTop: '10px', fontSize: '10px' }} />
                                     <Bar dataKey="official_claim" name="Official Claim" fill="#cbd5e1" radius={[4, 4, 0, 0]} />
                                     <Bar dataKey="verified_data" name="Verified Data" fill="#ef4444" radius={[4, 4, 0, 0]} />
                                 </BarChart>
@@ -100,14 +100,14 @@ const Poverty = () => {
                     </GlassPanel>
 
                     {/* Historical Trend */}
-                    <GlassPanel className="p-6">
+                    <GlassPanel className="p-4 md:p-6">
                         <div className="flex justify-between items-center mb-6">
-                            <h3 className="text-xl font-bold">Poverty Trend (2018-2024)</h3>
-                            <Badge variant="outline">Multi-year View</Badge>
+                            <h3 className="text-lg md:text-xl font-bold">Poverty Trend</h3>
+                            <Badge variant="outline">Trend</Badge>
                         </div>
-                        <div className="h-[400px] w-full">
+                        <div className="h-[300px] md:h-[400px] w-full">
                             <ResponsiveContainer width="100%" height="100%">
-                                <AreaChart data={nationalPovertyTrend} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+                                <AreaChart data={nationalPovertyTrend} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
                                     <defs>
                                         <linearGradient id="colorOfficial" x1="0" y1="0" x2="0" y2="1">
                                             <stop offset="5%" stopColor="#94a3b8" stopOpacity={0.1}/>
@@ -119,12 +119,12 @@ const Poverty = () => {
                                         </linearGradient>
                                     </defs>
                                     <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
-                                    <XAxis dataKey="year" axisLine={false} tickLine={false} />
-                                    <YAxis axisLine={false} tickLine={false} unit="%" />
+                                    <XAxis dataKey="year" axisLine={false} tickLine={false} tick={{ fontSize: 10 }} />
+                                    <YAxis axisLine={false} tickLine={false} tick={{ fontSize: 10 }} unit="%" />
                                     <Tooltip 
                                         contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)' }}
                                     />
-                                    <Legend iconType="circle" wrapperStyle={{ paddingTop: '20px' }} />
+                                    <Legend iconType="circle" wrapperStyle={{ paddingTop: '10px', fontSize: '10px' }} />
                                     <Area type="monotone" dataKey="official" name="Official" stroke="#94a3b8" fillOpacity={1} fill="url(#colorOfficial)" strokeWidth={3} />
                                     <Area type="monotone" dataKey="verified" name="Verified" stroke="#ef4444" fillOpacity={1} fill="url(#colorVerified)" strokeWidth={3} />
                                 </AreaChart>

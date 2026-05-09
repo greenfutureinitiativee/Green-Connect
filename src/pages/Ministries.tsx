@@ -67,9 +67,9 @@ const Ministries = () => {
                 <Tabs defaultValue="federal" onValueChange={setActiveTab} className="space-y-8">
                     <div className="flex justify-center">
                         <TabsList className="grid w-full max-w-xl grid-cols-3 h-11">
-                            <TabsTrigger value="federal" className="text-base">Federal</TabsTrigger>
-                            <TabsTrigger value="states" className="text-base">States</TabsTrigger>
-                            <TabsTrigger value="lga" className="text-base">Local Governance</TabsTrigger>
+                            <TabsTrigger value="federal" className="text-xs sm:text-base">Federal</TabsTrigger>
+                            <TabsTrigger value="states" className="text-xs sm:text-base">States</TabsTrigger>
+                            <TabsTrigger value="lga" className="text-xs sm:text-base">Local</TabsTrigger>
                         </TabsList>
                     </div>
 
@@ -86,15 +86,15 @@ const Ministries = () => {
                                             to={`/ministries/federal/${ministry.name.toLowerCase().replace(/\s+/g, '-')}`}
                                             className="absolute inset-0 z-0"
                                         />
-                                        <CardHeader className="pb-3 relative z-1">
+                                        <CardHeader className="p-4 md:p-6 pb-3 relative z-1">
                                             <div className="flex items-start justify-between">
-                                                <div className="flex gap-4">
-                                                    <div className="p-3 bg-green-100 dark:bg-green-900/20 rounded-xl group-hover:scale-110 transition-transform">
-                                                        <Building2 className="h-6 w-6 text-green-700 dark:text-green-400" />
+                                                <div className="flex gap-2 md:gap-4">
+                                                    <div className="p-2 md:p-3 bg-green-100 dark:bg-green-900/20 rounded-xl group-hover:scale-110 transition-transform">
+                                                        <Building2 className="h-5 w-5 md:h-6 md:w-6 text-green-700 dark:text-green-400" />
                                                     </div>
                                                     <div>
-                                                        <CardTitle className="text-xl group-hover:text-green-600 transition-colors">{ministry.name}</CardTitle>
-                                                        <Badge variant="secondary" className="mt-1">{ministry.sector}</Badge>
+                                                        <CardTitle className="text-lg md:text-xl group-hover:text-green-600 transition-colors">{ministry.name}</CardTitle>
+                                                        <Badge variant="secondary" className="mt-1 text-[10px]">{ministry.sector}</Badge>
                                                     </div>
                                                 </div>
                                                 <div className="text-right">
@@ -108,7 +108,7 @@ const Ministries = () => {
                                                 </div>
                                             </div>
                                         </CardHeader>
-                                        <CardContent className="space-y-6 relative z-1">
+                                        <CardContent className="p-4 md:p-6 pt-0 space-y-6 relative z-1">
                                             <div className="grid grid-cols-3 gap-2 py-4 border-y bg-muted/10 rounded-lg px-2">
                                                 <div className="text-center">
                                                     <p className="text-[10px] text-muted-foreground uppercase font-bold">Allocated</p>

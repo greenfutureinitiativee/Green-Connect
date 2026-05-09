@@ -63,10 +63,10 @@ const WorkMatrix = () => {
                         <Badge className="bg-primary hover:bg-primary/90 text-white px-4 py-1 rounded-full text-[10px] font-black tracking-widest uppercase">
                             Financial Accountability
                         </Badge>
-                        <h1 className="text-4xl font-black tracking-tighter sm:text-6xl text-slate-900 dark:text-white">
+                        <h1 className="text-3xl font-black tracking-tighter sm:text-6xl text-slate-900 dark:text-white">
                             The Work <span className="text-primary">Matrix</span>
                         </h1>
-                        <p className="text-muted-foreground text-lg font-medium">
+                        <p className="text-muted-foreground text-base md:text-lg font-medium">
                             Cross-referencing government expenditure with physical project progress and delivery results.
                         </p>
                     </div>
@@ -94,7 +94,7 @@ const WorkMatrix = () => {
                 </div>
 
                 {/* AI Auditor Insights */}
-                <GlassPanel className="p-8 mb-12 bg-white dark:bg-slate-900 border border-slate-200 dark:border-none shadow-xl overflow-hidden relative">
+                <GlassPanel className="p-4 md:p-8 mb-12 bg-white dark:bg-slate-900 border border-slate-200 dark:border-none shadow-xl overflow-hidden relative">
                     <div className="absolute top-0 right-0 p-12 opacity-10">
                         <Brain className="h-64 w-64" />
                     </div>
@@ -134,7 +134,7 @@ const WorkMatrix = () => {
 
                 {/* The Matrix Visualization */}
                 <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-8 mb-12">
-                    <GlassPanel className="p-6 h-[600px]">
+                    <GlassPanel className="p-4 md:p-6 h-[400px] md:h-[600px]">
                         <div className="flex justify-between items-center mb-8">
                             <h3 className="text-xl font-bold">Performance Scatter Matrix</h3>
                             <div className="flex gap-4 text-xs font-medium text-muted-foreground">
@@ -143,21 +143,23 @@ const WorkMatrix = () => {
                             </div>
                         </div>
                         <ResponsiveContainer width="100%" height="100%">
-                            <ScatterChart margin={{ top: 20, right: 20, bottom: 20, left: 20 }}>
+                            <ScatterChart margin={{ top: 20, right: 10, bottom: 20, left: 0 }}>
                                 <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
                                 <XAxis 
                                     type="number" 
                                     dataKey="spending_ratio" 
                                     name="Spending" 
                                     unit="%" 
-                                    label={{ value: 'Percentage of Budget Spent', position: 'bottom', offset: -10 }}
+                                    tick={{ fontSize: 10 }}
+                                    label={window.innerWidth > 768 ? { value: 'Percentage of Budget Spent', position: 'bottom', offset: -10 } : undefined}
                                 />
                                 <YAxis 
                                     type="number" 
                                     dataKey="work_result" 
                                     name="Work" 
                                     unit="%" 
-                                    label={{ value: 'Completion Result', angle: -90, position: 'left' }}
+                                    tick={{ fontSize: 10 }}
+                                    label={window.innerWidth > 768 ? { value: 'Completion Result', angle: -90, position: 'left' } : undefined}
                                 />
                                 <ZAxis type="number" dataKey="budget" range={[100, 1000]} name="Total Budget" />
                                 <Tooltip 
@@ -242,36 +244,36 @@ const WorkMatrix = () => {
                             <table className="w-full text-left text-sm">
                                 <thead className="bg-slate-50 dark:bg-slate-900/50 border-b">
                                     <tr>
-                                        <th className="px-6 py-4 font-black uppercase tracking-widest text-[10px]">Project / Ministry</th>
-                                        <th className="px-6 py-4 font-black uppercase tracking-widest text-[10px]">Total Budget</th>
-                                        <th className="px-6 py-4 font-black uppercase tracking-widest text-[10px]">Spend (Released)</th>
-                                        <th className="px-6 py-4 font-black uppercase tracking-widest text-[10px]">Verified Result</th>
-                                        <th className="px-6 py-4 font-black uppercase tracking-widest text-[10px]">Status</th>
+                                        <th className="px-4 md:px-6 py-4 font-black uppercase tracking-widest text-[10px]">Project / Ministry</th>
+                                        <th className="px-6 py-4 font-black uppercase tracking-widest text-[10px] hidden lg:table-cell">Total Budget</th>
+                                        <th className="px-4 md:px-6 py-4 font-black uppercase tracking-widest text-[10px]">Spend (Released)</th>
+                                        <th className="px-4 md:px-6 py-4 font-black uppercase tracking-widest text-[10px]">Verified Result</th>
+                                        <th className="px-6 py-4 font-black uppercase tracking-widest text-[10px] hidden md:table-cell">Status</th>
                                     </tr>
                                 </thead>
                                 <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
                                     {matrixData.map((item) => (
                                         <tr key={item.id} className="hover:bg-slate-50/50 dark:hover:bg-slate-900/50 transition-colors">
-                                            <td className="px-6 py-4">
-                                                <div className="font-bold">{item.name}</div>
-                                                <div className="text-[10px] text-muted-foreground uppercase">{item.ministry}</div>
+                                            <td className="px-4 md:px-6 py-4">
+                                                <div className="font-bold text-xs md:text-sm">{item.name}</div>
+                                                <div className="text-[9px] md:text-[10px] text-muted-foreground uppercase">{item.ministry}</div>
                                             </td>
-                                            <td className="px-6 py-4 font-mono font-bold">₦{(item.budget / 1e9).toFixed(1)}B</td>
-                                            <td className="px-6 py-4 font-mono">
+                                            <td className="px-6 py-4 font-mono font-bold hidden lg:table-cell">₦{(item.budget / 1e9).toFixed(1)}B</td>
+                                            <td className="px-4 md:px-6 py-4 font-mono text-xs md:text-sm">
                                                 <span className={item.spent > item.budget * 0.8 ? "text-red-500 font-bold" : ""}>
                                                     ₦{(item.spent / 1e9).toFixed(1)}B
                                                 </span>
                                             </td>
-                                            <td className="px-6 py-4">
+                                            <td className="px-4 md:px-6 py-4">
                                                 <div className="flex items-center gap-2">
-                                                    <div className="w-24 h-2 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                                                    <div className="w-16 md:w-24 h-1.5 md:h-2 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
                                                         <div className="h-full bg-blue-500" style={{ width: `${item.work_result}%` }} />
                                                     </div>
-                                                    <span className="font-bold">{item.work_result}%</span>
+                                                    <span className="font-bold text-xs md:text-sm">{item.work_result}%</span>
                                                 </div>
                                             </td>
-                                            <td className="px-6 py-4">
-                                                <Badge variant="outline" className="font-bold capitalize">{item.status.replace("_", " ")}</Badge>
+                                            <td className="px-6 py-4 hidden md:table-cell">
+                                                <Badge variant="outline" className="font-bold capitalize text-[10px]">{item.status.replace("_", " ")}</Badge>
                                             </td>
                                         </tr>
                                     ))}
