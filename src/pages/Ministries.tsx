@@ -8,9 +8,10 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import {
     Building2, FileBarChart, Search, MapPin,
-    User, Briefcase, ChevronRight, Globe
+    User, Briefcase, ChevronRight, Globe, Users
 } from "lucide-react";
-import { federalMinistries, stateData } from "@/data/federalData";
+import { cn } from "@/lib/utils";
+import { federalMinistries, stateData, lgaData } from "@/data/federalData";
 
 const Ministries = () => {
     const [searchQuery, setSearchQuery] = useState("");
@@ -24,6 +25,12 @@ const Ministries = () => {
     const filteredStates = stateData.filter(s =>
         s.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         s.governor.name.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+
+    const filteredLGAs = lgaData.filter(l =>
+        l.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        l.chairman.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        l.state.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
     const formatBudget = (amount: number) => {
@@ -50,7 +57,7 @@ const Ministries = () => {
                 <div className="max-w-xl mx-auto mb-8 relative">
                     <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                     <Input
-                        placeholder={`Search ${activeTab === 'federal' ? 'ministries, ministers...' : 'states, governors...'} `}
+                        placeholder={`Search ${activeTab === 'federal' ? 'ministries, ministers...' : activeTab === 'states' ? 'states, governors...' : 'LGAs, chairmen...'} `}
                         className="pl-10 h-11"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
@@ -59,76 +66,113 @@ const Ministries = () => {
 
                 <Tabs defaultValue="federal" onValueChange={setActiveTab} className="space-y-8">
                     <div className="flex justify-center">
-                        <TabsList className="grid w-full max-w-md grid-cols-2 h-11">
-                            <TabsTrigger value="federal" className="text-base">Federal Ministries</TabsTrigger>
-                            <TabsTrigger value="states" className="text-base">State Budgets</TabsTrigger>
+                        <TabsList className="grid w-full max-w-xl grid-cols-3 h-11">
+                            <TabsTrigger value="federal" className="text-base">Federal</TabsTrigger>
+                            <TabsTrigger value="states" className="text-base">States</TabsTrigger>
+                            <TabsTrigger value="lga" className="text-base">Local Governance</TabsTrigger>
                         </TabsList>
                     </div>
 
                     <TabsContent value="federal" className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {filteredMinistries.map((ministry, index) => (
-                                <Card key={index} className="overflow-hidden hover:shadow-md transition-shadow">
-                                    <div className="h-2 bg-gradient-to-r from-green-500 to-emerald-600" />
-                                    <CardHeader className="pb-3">
-                                        <div className="flex items-start justify-between gap-4">
-                                            <div className="p-2 bg-green-100 dark:bg-green-900/20 rounded-lg">
-                                                <Building2 className="h-5 w-5 text-green-700 dark:text-green-400" />
-                                            </div>
-                                            {ministry.website && (
-                                                <Button variant="ghost" size="icon" className="h-8 w-8" asChild>
-                                                    <a href={ministry.website} target="_blank" rel="noopener noreferrer">
-                                                        <Globe className="h-4 w-4" />
-                                                    </a>
-                                                </Button>
-                                            )}
-                                        </div>
-                                        <CardTitle className="text-xl mt-2">{ministry.name}</CardTitle>
-                                        <CardDescription className="line-clamp-2 min-h-[40px]">
-                                            {ministry.mandate}
-                                        </CardDescription>
-                                    </CardHeader>
-                                    <CardContent className="space-y-4 bg-muted/20 pt-4 border-t">
-                                        <div className="flex items-center gap-3">
-                                            <div className="h-10 w-10 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center font-bold text-slate-500">
-                                                {ministry.minister.name.charAt(0)}
-                                            </div>
-                                            <div>
-                                                <p className="text-sm font-medium leading-none mb-1">{ministry.minister.name}</p>
-                                                <p className="text-xs text-muted-foreground">{ministry.minister.portfolio}</p>
-                                                {ministry.minister.state_of_origin && (
-                                                    <Badge variant="outline" className="mt-1 text-[10px] h-5 px-1.5">
-                                                        {ministry.minister.state_of_origin} State
-                                                    </Badge>
-                                                )}
-                                            </div>
-                                        </div>
-                                        {ministry.minister_of_state && (
-                                            <div className="flex items-center gap-3 pl-4 border-l-2 ml-4">
-                                                <div>
-                                                    <p className="text-sm font-medium leading-none mb-1">{ministry.minister_of_state.name}</p>
-                                                    <p className="text-xs text-muted-foreground">{ministry.minister_of_state.portfolio}</p>
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                            {filteredMinistries.map((ministry, index) => {
+                                const latestFin = ministry.financials[0];
+                                const gap = latestFin.allocated - latestFin.spent;
+                                const gapPercent = Math.round((gap / latestFin.allocated) * 100);
+                                
+                                return (
+                                    <Card key={index} className="overflow-hidden hover:shadow-xl transition-all border-l-4 border-l-green-600 group relative">
+                                        <Link 
+                                            to={`/ministries/federal/${ministry.name.toLowerCase().replace(/\s+/g, '-')}`}
+                                            className="absolute inset-0 z-0"
+                                        />
+                                        <CardHeader className="pb-3 relative z-1">
+                                            <div className="flex items-start justify-between">
+                                                <div className="flex gap-4">
+                                                    <div className="p-3 bg-green-100 dark:bg-green-900/20 rounded-xl group-hover:scale-110 transition-transform">
+                                                        <Building2 className="h-6 w-6 text-green-700 dark:text-green-400" />
+                                                    </div>
+                                                    <div>
+                                                        <CardTitle className="text-xl group-hover:text-green-600 transition-colors">{ministry.name}</CardTitle>
+                                                        <Badge variant="secondary" className="mt-1">{ministry.sector}</Badge>
+                                                    </div>
+                                                </div>
+                                                <div className="text-right">
+                                                    <p className="text-xs text-muted-foreground font-semibold uppercase">2023 Gap Index</p>
+                                                    <div className={cn(
+                                                        "text-lg font-bold",
+                                                        gapPercent > 20 ? "text-red-500" : gapPercent > 10 ? "text-orange-500" : "text-green-500"
+                                                    )}>
+                                                        {gapPercent}%
+                                                    </div>
                                                 </div>
                                             </div>
-                                        )}
-                                    </CardContent>
-                                </Card>
-                            ))}
+                                        </CardHeader>
+                                        <CardContent className="space-y-6 relative z-1">
+                                            <div className="grid grid-cols-3 gap-2 py-4 border-y bg-muted/10 rounded-lg px-2">
+                                                <div className="text-center">
+                                                    <p className="text-[10px] text-muted-foreground uppercase font-bold">Allocated</p>
+                                                    <p className="font-bold text-sm">{formatBudget(latestFin.allocated)}</p>
+                                                </div>
+                                                <div className="text-center border-x">
+                                                    <p className="text-[10px] text-muted-foreground uppercase font-bold">Released</p>
+                                                    <p className="font-bold text-sm">{formatBudget(latestFin.released)}</p>
+                                                </div>
+                                                <div className="text-center">
+                                                    <p className="text-[10px] text-muted-foreground uppercase font-bold">Spent</p>
+                                                    <p className="font-bold text-sm text-green-600">{formatBudget(latestFin.spent)}</p>
+                                                </div>
+                                            </div>
+
+                                            <div className="space-y-2">
+                                                <div className="flex justify-between text-xs font-semibold">
+                                                    <span>Spending Efficiency</span>
+                                                    <span>{100 - gapPercent}%</span>
+                                                </div>
+                                                <div className="h-2 w-full bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                                                    <div 
+                                                        className={cn(
+                                                            "h-full transition-all duration-1000",
+                                                            gapPercent > 20 ? "bg-red-500" : gapPercent > 10 ? "bg-orange-500" : "bg-green-500"
+                                                        )}
+                                                        style={{ width: `${100 - gapPercent}%` }}
+                                                    />
+                                                </div>
+                                                <p className="text-[10px] text-muted-foreground">
+                                                    *The gap of {formatBudget(gap)} represents unspent or unverified funds.
+                                                </p>
+                                            </div>
+
+                                            <div className="flex items-center gap-4 pt-4 border-t">
+                                                <div className="h-10 w-10 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center font-bold text-slate-500 overflow-hidden">
+                                                    {ministry.minister.name.charAt(0)}
+                                                </div>
+                                                <div className="flex-1">
+                                                    <p className="text-sm font-bold">{ministry.minister.name}</p>
+                                                    <p className="text-xs text-muted-foreground">{ministry.minister.portfolio}</p>
+                                                </div>
+                                                <Button variant="ghost" size="sm" className="h-8 gap-1 text-xs hover:bg-green-600 hover:text-white relative z-10">
+                                                    View Projects <ChevronRight className="h-3 w-3" />
+                                                </Button>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
+                                );
+                            })}
                         </div>
                     </TabsContent>
 
                     <TabsContent value="states" className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                             {filteredStates.map((state, index) => (
-                                <Card key={index} className="overflow-hidden">
-                                    <div className="h-2 bg-gradient-to-r from-blue-500 to-indigo-600" />
+                                <Card key={index} className="overflow-hidden border-t-4 border-t-blue-600">
                                     <CardHeader>
                                         <div className="flex justify-between items-start">
                                             <div>
                                                 <CardTitle className="text-2xl mb-1 flex items-center gap-2">
                                                     {state.name} State
                                                     {state.website && (
-                                                        <a href={state.website} target="_blank" className="text-muted-foreground hover:text-primary">
+                                                        <a href={state.website} target="_blank" className="text-muted-foreground hover:text-primary relative z-10">
                                                             <Globe className="h-4 w-4" />
                                                         </a>
                                                     )}
@@ -137,96 +181,131 @@ const Ministries = () => {
                                                     <MapPin className="h-3 w-3" /> Capital: {state.capital}
                                                 </CardDescription>
                                             </div>
-                                            <Badge variant="outline" className="text-lg px-3 py-1 bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-300 border-blue-200">
-                                                2024 Budget
+                                            <Badge variant="outline" className="bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-300 border-blue-200">
+                                                {state.governor.party}
                                             </Badge>
                                         </div>
                                     </CardHeader>
 
                                     <CardContent className="space-y-6">
-                                        {/* Governor & Budget Overview */}
-                                        <div className="grid grid-cols-2 gap-4">
-                                            <div className="p-4 rounded-xl bg-slate-100 dark:bg-slate-800">
-                                                <div className="flex items-center gap-2 mb-2 text-muted-foreground">
-                                                    <User className="h-4 w-4" />
-                                                    <span className="text-xs font-semibold uppercase tracking-wider">Governor</span>
-                                                </div>
-                                                <p className="font-bold text-lg leading-tight">{state.governor.name}</p>
-                                                <div className="flex items-center gap-2 mt-1">
-                                                    <Badge className={state.governor.party === 'APC' ? 'bg-cyan-600' : 'bg-red-600'}>
-                                                        {state.governor.party}
-                                                    </Badge>
-                                                    {state.governor.deputy && (
-                                                        <span className="text-xs text-muted-foreground">Dep: {state.governor.deputy.split(' ')[0]}...</span>
-                                                    )}
-                                                </div>
+                                        <div className="flex items-center gap-4 p-4 bg-muted/30 rounded-xl">
+                                            <div className="h-12 w-12 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center font-bold text-blue-600">
+                                                {state.governor.name.charAt(0)}
                                             </div>
-
-                                            <div className="p-4 rounded-xl bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-100 dark:border-indigo-800">
-                                                <div className="flex items-center gap-2 mb-2 text-indigo-600 dark:text-indigo-400">
-                                                    <FileBarChart className="h-4 w-4" />
-                                                    <span className="text-xs font-semibold uppercase tracking-wider">Total Allocation</span>
-                                                </div>
-                                                {state.budget.length > 0 ? (
-                                                    <>
-                                                        <p className="font-bold text-xl leading-tight">
-                                                            {formatBudget(state.budget[0].total_budget)}
-                                                        </p>
-                                                        <p className="text-xs text-muted-foreground mt-1">
-                                                            Status: {state.budget[0].status}
-                                                        </p>
-                                                    </>
-                                                ) : <p className="text-sm">Data pending</p>}
+                                            <div>
+                                                <p className="text-sm font-bold">{state.governor.name}</p>
+                                                <p className="text-xs text-muted-foreground">Executive Governor</p>
                                             </div>
                                         </div>
 
-                                        {/* Budget Breakdown */}
-                                        {state.budget.length > 0 && (
-                                            <div className="space-y-2">
-                                                <div className="flex justify-between text-sm">
-                                                    <span>Capital Expenditure</span>
-                                                    <span className="font-semibold">{formatBudget(state.budget[0].capital_expenditure)}</span>
-                                                </div>
-                                                <div className="flex justify-between text-sm">
-                                                    <span>Recurrent Expenditure</span>
-                                                    <span className="font-semibold">{formatBudget(state.budget[0].recurrent_expenditure)}</span>
-                                                </div>
-                                                <div className="h-2 w-full bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden flex">
-                                                    <div
-                                                        className="h-full bg-indigo-500"
-                                                        style={{ width: `${(state.budget[0].capital_expenditure / state.budget[0].total_budget) * 100}%` }}
-                                                    />
-                                                    <div className="h-full bg-slate-300" style={{ flex: 1 }} />
-                                                </div>
-                                                <div className="flex justify-between text-xs text-muted-foreground">
-                                                    <span>Capex ({Math.round((state.budget[0].capital_expenditure / state.budget[0].total_budget) * 100)}%)</span>
-                                                    <span>Recurrent</span>
-                                                </div>
-                                            </div>
-                                        )}
-
-                                        {/* Commissioners */}
-                                        <div>
-                                            <h4 className="text-sm font-semibold mb-3 flex items-center gap-2">
-                                                <Briefcase className="h-4 w-4 text-primary" /> Key Commissioners
+                                        <div className="space-y-4">
+                                            <h4 className="text-sm font-bold uppercase tracking-wider text-muted-foreground flex items-center gap-2">
+                                                <Building2 className="h-4 w-4" /> State Ministries & Spending
                                             </h4>
-                                            <div className="h-[120px] rounded-md border p-2 bg-background overflow-y-auto">
-                                                <div className="space-y-2">
-                                                    {state.commissioners.map((comm, idx) => (
-                                                        <div key={idx} className="flex justify-between items-center text-sm p-2 rounded hover:bg-muted/50">
-                                                            <div>
-                                                                <p className="font-medium">{comm.name}</p>
-                                                                <p className="text-xs text-muted-foreground">{comm.portfolio}</p>
+                                            <div className="space-y-3">
+                                                {state.ministries.map((m, idx) => {
+                                                    const latest = m.financials[0];
+                                                    const efficiency = Math.round((latest.spent / latest.allocated) * 100);
+                                                    return (
+                                                        <Link 
+                                                            key={idx} 
+                                                            to={`/ministries/state/${state.name.toLowerCase()}/${m.name.toLowerCase().replace(/\s+/g, '-')}`}
+                                                            className="block p-4 rounded-xl border bg-background/50 hover:bg-blue-50 dark:hover:bg-blue-900/10 transition-all hover:border-blue-200 group"
+                                                        >
+                                                            <div className="flex justify-between items-start mb-3">
+                                                                <div>
+                                                                    <p className="font-bold text-sm group-hover:text-blue-600 transition-colors">{m.name}</p>
+                                                                    <p className="text-xs text-muted-foreground">{m.commissioner.name}</p>
+                                                                </div>
+                                                                <Badge variant={efficiency > 80 ? "outline" : "destructive"} className="text-[10px]">
+                                                                    {efficiency}% Efficiency
+                                                                </Badge>
                                                             </div>
-                                                            <ChevronRight className="h-3 w-3 text-muted-foreground" />
-                                                        </div>
-                                                    ))}
-                                                    {state.commissioners.length === 0 && (
-                                                        <p className="text-sm text-center text-muted-foreground py-4">Commissioner list updating...</p>
-                                                    )}
-                                                </div>
+                                                            <div className="grid grid-cols-2 gap-2 text-[11px] mb-2">
+                                                                <div className="flex justify-between">
+                                                                    <span className="text-muted-foreground">Budget:</span>
+                                                                    <span className="font-bold">{formatBudget(latest.allocated)}</span>
+                                                                </div>
+                                                                <div className="flex justify-between">
+                                                                    <span className="text-muted-foreground">Spent:</span>
+                                                                    <span className="font-bold text-green-600">{formatBudget(latest.spent)}</span>
+                                                                </div>
+                                                            </div>
+                                                            <div className="h-1.5 w-full bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                                                                <div 
+                                                                    className={cn(
+                                                                        "h-full transition-all duration-1000",
+                                                                        efficiency > 80 ? "bg-green-500" : efficiency > 60 ? "bg-orange-500" : "bg-red-500"
+                                                                    )}
+                                                                    style={{ width: `${efficiency}%` }}
+                                                                />
+                                                            </div>
+                                                        </Link>
+                                                    );
+                                                })}
                                             </div>
                                         </div>
+                                    </CardContent>
+                                </Card>
+                            ))}
+                        </div>
+                    </TabsContent>
+
+                    <TabsContent value="lga" className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                            {filteredLGAs.map((lga, index) => (
+                                <Card key={index} className="overflow-hidden border-t-4 border-t-indigo-600">
+                                    <CardHeader>
+                                        <div className="flex justify-between items-start">
+                                            <div>
+                                                <CardTitle className="text-2xl mb-1">{lga.name} LGA</CardTitle>
+                                                <CardDescription className="flex items-center gap-1 font-medium text-indigo-600">
+                                                    <MapPin className="h-3 w-3" /> {lga.state} State
+                                                </CardDescription>
+                                            </div>
+                                            <div className="p-2 bg-indigo-100 dark:bg-indigo-900/20 rounded-lg">
+                                                <Users className="h-5 w-5 text-indigo-600" />
+                                            </div>
+                                        </div>
+                                    </CardHeader>
+                                    <CardContent className="space-y-6">
+                                        <div className="flex items-center gap-4 p-4 bg-indigo-50/50 dark:bg-indigo-900/10 rounded-xl border border-indigo-100 dark:border-indigo-900/30">
+                                            <div className="h-10 w-10 rounded-full bg-indigo-200 dark:bg-indigo-800 flex items-center justify-center font-bold text-indigo-700">
+                                                {lga.chairman.charAt(0)}
+                                            </div>
+                                            <div>
+                                                <p className="text-sm font-bold">{lga.chairman}</p>
+                                                <p className="text-xs text-muted-foreground">LGA Chairman</p>
+                                            </div>
+                                        </div>
+
+                                        <div className="space-y-4">
+                                            <h4 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">LGA Departments</h4>
+                                            <div className="grid grid-cols-1 gap-3">
+                                                {lga.departments.map((dept, idx) => {
+                                                    const latest = dept.financials[0];
+                                                    return (
+                                                        <Link 
+                                                            key={idx} 
+                                                            to={`/ministries/lga/${lga.name.toLowerCase().replace(/\s+/g, '-')}/${dept.name.toLowerCase()}`}
+                                                            className="block p-3 rounded-lg border bg-background/50 hover:bg-indigo-50 dark:hover:bg-indigo-900/10 transition-all hover:border-indigo-200 group"
+                                                        >
+                                                            <div className="flex justify-between items-center mb-2">
+                                                                <p className="font-bold text-sm group-hover:text-indigo-600 transition-colors">{dept.name}</p>
+                                                                <p className="text-[10px] bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded font-medium">HOD: {dept.hod}</p>
+                                                            </div>
+                                                            <div className="flex justify-between items-center text-xs">
+                                                                <span className="text-muted-foreground">Budget: {formatBudget(latest.allocated)}</span>
+                                                                <span className="text-green-600 font-bold">Spent: {formatBudget(latest.spent)}</span>
+                                                            </div>
+                                                        </Link>
+                                                    );
+                                                })}
+                                            </div>
+                                        </div>
+                                        <Button variant="outline" className="w-full text-xs h-9 border-dashed">
+                                            Report Local Project Mismanagement
+                                        </Button>
                                     </CardContent>
                                 </Card>
                             ))}

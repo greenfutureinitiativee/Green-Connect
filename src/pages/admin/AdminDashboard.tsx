@@ -186,10 +186,13 @@ const AdminDashboard = () => {
                         <p className="text-muted-foreground">Manage and resolve reported issues</p>
                     </div>
                     <div className="flex items-center gap-2">
-                        <Button variant="secondary" onClick={() => navigate("/admin/governance")}>
+                        <Button variant="secondary" onClick={() => navigate("/admin/blog")}>
+                            Manage Articles
+                        </Button>
+                        <Button variant="outline" onClick={() => navigate("/admin/governance")}>
                             Manage Governance
                         </Button>
-                        <Button variant="outline" onClick={loadAdminData}>
+                        <Button variant="ghost" onClick={loadAdminData}>
                             Refresh Data
                         </Button>
                     </div>

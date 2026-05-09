@@ -21,6 +21,16 @@ import AdminDashboard from "./pages/admin/AdminDashboard";
 import LGAGovernanceForm from "./pages/admin/LGAGovernanceForm";
 import LGADashboard from "./pages/LGADashboard";
 import Ministries from "./pages/Ministries";
+import Policies from "./pages/Policies";
+import PolicyDiscussion from "./pages/PolicyDiscussion";
+import MinistryDetails from "./pages/MinistryDetails";
+import Chambers from "./pages/Chambers";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
+import BlogEditor from "./pages/admin/BlogEditor";
+import WorkMatrix from "./pages/WorkMatrix";
+import Poverty from "./pages/Poverty";
+import NationalAssembly from "./pages/NationalAssembly";
 import { GreenOracleChat } from "./components/GreenOracleChat";
 
 const queryClient = new QueryClient();
@@ -49,11 +59,22 @@ const App = () => {
                   <Route path="/signup" element={<SignUp />} />
                   <Route path="/reset-password" element={<ResetPassword />} />
                   <Route path="/ministries" element={<Ministries />} />
+                  <Route path="/chambers" element={<Chambers />} />
+                  <Route path="/ministries/:level/:id" element={<MinistryDetails />} />
+                  <Route path="/ministries/:level/:id/:subid" element={<MinistryDetails />} />
                   <Route path="/donate" element={<Donate />} />
+                  <Route path="/policies" element={<Policies />} />
+                  <Route path="/policies/discussion/:id" element={<PolicyDiscussion />} />
                   <Route path="/news" element={<News />} />
                   <Route path="/lga-dashboard" element={<LGADashboard />} />
                   <Route path="/admin" element={<AdminDashboard />} />
                   <Route path="/admin/governance" element={<LGAGovernanceForm />} />
+                  <Route path="/admin/blog" element={<BlogEditor />} />
+                  <Route path="/blog" element={<Blog />} />
+                  <Route path="/blog/:slug" element={<BlogPost />} />
+                  <Route path="/work-matrix" element={<WorkMatrix />} />
+                  <Route path="/poverty" element={<Poverty />} />
+                  <Route path="/national-assembly" element={<NationalAssembly />} />
                 </Routes>
               </main>
               <GreenOracleChat />

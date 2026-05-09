@@ -30,9 +30,13 @@ const Navbar = () => {
     const navLinks = [
         { name: "Explore LGAs", path: "/explore" },
         { name: "Ministries", path: "/ministries" },
+        { name: "The Chambers", path: "/chambers" },
+        { name: "Policy Forum", path: "/policies" },
         { name: "News", path: "/news" },
+        { name: "Blog", path: "/blog" },
+        { name: "Work Matrix", path: "/work-matrix" },
+        { name: "Poverty Monitor", path: "/poverty" },
         { name: "Donate Waste", path: "/donate" },
-        { name: "Dashboard", path: "/dashboard" },
     ];
 
     const isActive = (path: string) => location.pathname === path;
