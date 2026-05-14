@@ -59,8 +59,8 @@ const BlogPost = () => {
                         </h1>
                         <div className="flex flex-wrap items-center gap-6 text-white/80 text-sm">
                             <div className="flex items-center gap-3">
-                                <div className="h-10 w-10 rounded-full overflow-hidden border-2 border-white/20">
-                                    <img src={post.author.avatar_url} alt={post.author.name} className="w-full h-full object-cover" />
+                                <div className="h-10 w-10 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center border-2 border-white/20">
+                                    <User className="h-5 w-5 text-white/80" />
                                 </div>
                                 <div>
                                     <p className="font-bold text-white">{post.author.name}</p>
