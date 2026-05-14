@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Leaf, User, Menu, X } from "lucide-react";
+import { Leaf, User, Menu, X, LayoutDashboard } from "lucide-react";
 import { useAuth } from "@/hooks/useAuth";
 import {
     DropdownMenu,
@@ -82,12 +82,18 @@ const Navbar = () => {
 
                     <div className="flex items-center gap-4 pl-6 border-l">
                         {user ? (
-                            <DropdownMenu>
-                                <DropdownMenuTrigger asChild>
+                            <>
+                                <Link to="/dashboard" title="Go to Dashboard">
                                     <Button variant="ghost" size="icon" className="rounded-full border-2 border-transparent hover:border-primary/20 hover:bg-primary/5">
-                                        <User className="h-5 w-5 text-primary" />
+                                        <LayoutDashboard className="h-5 w-5 text-primary" />
                                     </Button>
-                                </DropdownMenuTrigger>
+                                </Link>
+                                <DropdownMenu>
+                                    <DropdownMenuTrigger asChild>
+                                        <Button variant="ghost" size="icon" className="rounded-full border-2 border-transparent hover:border-primary/20 hover:bg-primary/5">
+                                            <User className="h-5 w-5 text-primary" />
+                                        </Button>
+                                    </DropdownMenuTrigger>
                                 <DropdownMenuContent align="end" className="w-56 p-2">
                                     <DropdownMenuLabel className="font-normal">
                                         <div className="flex flex-col space-y-1">
@@ -108,6 +114,7 @@ const Navbar = () => {
                                     </DropdownMenuItem>
                                 </DropdownMenuContent>
                             </DropdownMenu>
+                            </>
                         ) : (
                             <>
                                 <Link to="/signin">
@@ -157,11 +164,18 @@ const Navbar = () => {
                         {user ? (
                             <>
                                 <Link
+                                    to="/dashboard"
+                                    onClick={() => setMobileMenuOpen(false)}
+                                    className="py-3 px-4 rounded-lg text-sm font-medium hover:bg-muted transition-colors flex items-center gap-2"
+                                >
+                                    <LayoutDashboard className="h-4 w-4" /> Dashboard
+                                </Link>
+                                <Link
                                     to="/profile"
                                     onClick={() => setMobileMenuOpen(false)}
-                                    className="py-3 px-4 rounded-lg text-sm font-medium hover:bg-muted transition-colors"
+                                    className="py-3 px-4 rounded-lg text-sm font-medium hover:bg-muted transition-colors flex items-center gap-2"
                                 >
-                                    Profile
+                                    <User className="h-4 w-4" /> Profile
                                 </Link>
                                 <button
                                     onClick={() => {
