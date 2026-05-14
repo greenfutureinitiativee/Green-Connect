@@ -32,9 +32,9 @@ const Donate = () => {
     };
 
     return (
-        <div className="min-h-screen bg-slate-50 dark:bg-background">
+        <div className="min-h-screen bg-slate-50 dark:bg-slate-950">
             {/* Hero Section */}
-            <section className="bg-green-600 text-white py-20 px-4 md:px-6 relative overflow-hidden">
+            <section className="bg-green-600 text-white pt-32 md:pt-40 pb-20 px-4 md:px-6 relative overflow-hidden">
                 <div className="container mx-auto relative z-10 text-center max-w-3xl">
                     <h1 className="text-4xl md:text-6xl font-bold mb-6">
                         Turn Your Waste into Wealth

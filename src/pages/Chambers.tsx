@@ -227,7 +227,7 @@ const Chambers = () => {
     );
 
     return (
-        <div className="min-h-screen pt-24 pb-20 bg-[#fafbfc] dark:bg-slate-950">
+        <div className="min-h-screen pt-32 md:pt-40 pb-20 bg-[#fafbfc] dark:bg-slate-950">
             <div className="container px-4 md:px-6 max-w-6xl mx-auto">
                 {/* Hero Section */}
                 <div className="flex flex-col items-center text-center space-y-4 mb-12">

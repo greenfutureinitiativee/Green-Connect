@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className="flex flex-col min-h-screen overflow-x-hidden">
             {/* Hero Section */}
-            <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-b from-green-50 to-white dark:from-green-950/20 dark:to-background pt-20 md:pt-0">
+            <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-b from-green-50 to-white dark:from-green-950/20 dark:to-background pt-32 md:pt-40">
                 {/* Animated Background Elements */}
                 <div className="absolute inset-0 pointer-events-none">
                     <div className="absolute top-20 left-10 w-72 h-72 bg-green-300/20 rounded-full blur-3xl animate-float" />
@@ -18,13 +18,6 @@ const Home = () => {
 
                 <div className="container px-4 md:px-6 relative z-10">
                     <div className="flex flex-col items-center text-center space-y-8 max-w-4xl mx-auto">
-                        <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-semibold transition-colors border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 backdrop-blur-sm animate-in fade-in slide-in-from-top-4 duration-700">
-                            <span className="relative flex h-2 w-2 mr-2">
-                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                                <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-                            </span>
-                            Now covering all 774 LGAs
-                        </div>
 
                         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight animate-in fade-in slide-in-from-bottom-8 duration-700 delay-100">
                             Empowering Citizens, <br />

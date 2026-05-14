@@ -6,9 +6,10 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
 import {
-    MapPin, DollarSign, Users, AlertCircle, Phone, Mail, ArrowLeft,
-    Building2, Briefcase, Clock, Globe, Flag, Eye
+    MapPin, Wallet, Users, AlertCircle, Phone, Mail, ArrowLeft,
+    Building2, Briefcase, Clock, Globe, Flag, Eye, Shield, TrendingUp, Info
 } from "lucide-react";
+import { getLgaMarchAllocation, isAllocationVerified } from "@/data/faacData";
 import { FloatingCard } from "@/components/FloatingCard";
 import { GlassPanel } from "@/components/GlassPanel";
 import { LGAImageFeed } from "@/components/LGAImageFeed";
@@ -118,6 +119,12 @@ const LGADetail = () => {
 
     const formatCurrency = (amount?: number) => {
         if (!amount) return "N/A";
+        if (amount >= 1e9) {
+            return `₦${(amount / 1e9).toFixed(2)}B`;
+        }
+        if (amount >= 1e6) {
+            return `₦${(amount / 1e6).toFixed(2)}M`;
+        }
         return new Intl.NumberFormat("en-NG", {
             style: "currency",
             currency: "NGN",
@@ -160,7 +167,7 @@ const LGADetail = () => {
     return (
         <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-background pb-12">
             {/* Hero Section */}
-            <div className="relative bg-primary/5 dark:bg-primary/10 pb-12 pt-8">
+            <div className="relative bg-primary/5 dark:bg-primary/10 pb-12 pt-32 md:pt-40">
                 <div className="container px-4 md:px-6">
                     <Button
                         variant="ghost"
@@ -194,29 +201,43 @@ const LGADetail = () => {
                                 )}
                             </div>
                         </div>
-                        <div className="flex gap-3">
-                            {lgaDetails.contact_email && (
-                                <Button variant="outline" className="gap-2" asChild>
-                                    <a href={`mailto:${lgaDetails.contact_email}`}>
-                                        <Mail className="w-4 h-4" /> Contact
-                                    </a>
-                                </Button>
-                            )}
-                            {lgaDetails.website_url && (
-                                <Button variant="outline" className="gap-2" asChild>
-                                    <a href={lgaDetails.website_url} target="_blank" rel="noopener noreferrer">
-                                        <Globe className="w-4 h-4" /> Website
-                                    </a>
-                                </Button>
-                            )}
-                        </div>
+                            <div className="flex flex-col items-end gap-3">
+                                <div className="flex gap-3">
+                                    {lgaDetails.contact_email && (
+                                        <Button variant="outline" className="gap-2" asChild>
+                                            <a href={`mailto:${lgaDetails.contact_email}`}>
+                                                <Mail className="w-4 h-4" /> Contact
+                                            </a>
+                                        </Button>
+                                    )}
+                                    {lgaDetails.website_url && (
+                                        <Button variant="outline" className="gap-2" asChild>
+                                            <a href={lgaDetails.website_url} target="_blank" rel="noopener noreferrer">
+                                                <Globe className="w-4 h-4" /> Website
+                                            </a>
+                                        </Button>
+                                    )}
+                                </div>
+                                <div className="flex items-center gap-2">
+                                    <div className="flex items-center gap-2 px-3 py-1 bg-green-500/10 text-green-600 dark:text-green-400 rounded-full border border-green-500/20">
+                                        <Shield className="w-3.5 h-3.5" />
+                                        <span className="text-xs font-bold uppercase tracking-wider">Active Status</span>
+                                    </div>
+                                    {( (lgaDetails.annual_budget && lgaDetails.annual_budget > 0) || isAllocationVerified(lgaDetails.name)) && (
+                                         <div className="px-3 py-1 bg-blue-500/10 text-blue-600 dark:text-blue-400 rounded-full border border-blue-500/20 flex items-center gap-1.5">
+                                             <div className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />
+                                             <span className="text-xs font-bold uppercase tracking-wider">Verified Data</span>
+                                         </div>
+                                     )}
+                                 </div>
+                             </div>
                     </div>
                 </div>
             </div>
 
             <div className="container px-4 md:px-6 -mt-8">
                 {/* Key Stats */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
                     <FloatingCard
                         depth="low"
                         className="p-6 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm animate-in fade-in zoom-in duration-500 delay-100"
@@ -255,16 +276,28 @@ const LGADetail = () => {
                     >
                         <div className="flex items-center justify-between mb-4">
                             <div className="p-2 bg-purple-100 dark:bg-purple-900/30 rounded-lg">
-                                <DollarSign className="h-5 w-5 text-purple-600 dark:text-purple-400" />
+                                <Wallet className="h-5 w-5 text-purple-600 dark:text-purple-400" />
                             </div>
                             <span className="text-xs font-medium text-muted-foreground">Finance</span>
                         </div>
                         <div className="text-2xl font-bold mb-1">
-                            {lgaDetails.annual_budget
-                                ? `₦${(lgaDetails.annual_budget / 1000000).toFixed(1)}M`
-                                : "N/A"}
+                            {formatCurrency((lgaDetails.annual_budget && lgaDetails.annual_budget > 0) ? lgaDetails.annual_budget : getLgaMarchAllocation(lgaDetails.name, lgaDetails.state) * 1_000_000_000)}
                         </div>
-                        <p className="text-xs text-muted-foreground">Annual Budget</p>
+                        <p className="text-xs text-muted-foreground">Monthly FAAC (March)</p>
+                    </FloatingCard>
+
+                    <FloatingCard
+                        depth="low"
+                        className="p-6 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm animate-in fade-in zoom-in duration-500 delay-350"
+                    >
+                        <div className="flex items-center justify-between mb-4">
+                            <div className="p-2 bg-emerald-100 dark:bg-emerald-900/30 rounded-lg">
+                                <Globe className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
+                            </div>
+                            <span className="text-[10px] font-medium text-muted-foreground text-right leading-tight">Total allocation budget<br />Total Disbursement</span>
+                        </div>
+                        <div className="text-2xl font-bold mb-1">₦454.00B</div>
+                        <p className="text-[11px] text-muted-foreground">March 2026 · All 774 LGAs</p>
                     </FloatingCard>
 
                     <FloatingCard
@@ -330,8 +363,8 @@ const LGADetail = () => {
                     <TabsContent value="budget">
                         <GlassPanel className="p-6">
                             <div className="flex items-center gap-3 mb-6">
-                                <div className="p-2 bg-primary/10 rounded-full">
-                                    <DollarSign className="h-6 w-6 text-primary" />
+                                <div className="p-3 bg-primary/10 rounded-2xl">
+                                    <Wallet className="h-6 w-6 text-primary" />
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-bold">Budget Allocation</h3>
@@ -386,7 +419,7 @@ const LGADetail = () => {
                                                 </div>
                                                 <div className="text-right">
                                                     <p className="font-bold text-green-700 dark:text-green-400">
-                                                        ₦{(alloc.amount / 1000000).toFixed(2)}M
+                                                        {formatCurrency(alloc.amount)}
                                                     </p>
                                                 </div>
                                             </div>

@@ -14,6 +14,7 @@ import {
 import { LoadingSpinner } from "@/components/LoadingSpinner";
 import { PointsService } from "@/services/points-service";
 import { PointsProgressCard } from "@/components/PointsDisplay";
+import { getLgaMarchAllocation, isAllocationVerified, march2026FaacPools } from "@/data/faacData";
 import type { PointHistory } from "@/types/gamification";
 
 interface DashboardStats {
@@ -146,6 +147,23 @@ const Dashboard = () => {
         }
     }, [navigate]);
 
+    const totalDisbursement = march2026FaacPools.reduce((acc, curr) => acc + curr.totalLgaPool, 0);
+
+    const formatCurrency = (amount: number) => {
+        if (amount >= 1e9) {
+            return `₦${(amount / 1e9).toFixed(2)}B`;
+        }
+        if (amount >= 1e6) {
+            return `₦${(amount / 1e6).toFixed(2)}M`;
+        }
+        return new Intl.NumberFormat("en-NG", {
+            style: "currency",
+            currency: "NGN",
+            minimumFractionDigits: 0,
+            maximumFractionDigits: 0,
+        }).format(amount);
+    };
+
     useEffect(() => {
         loadDashboard();
     }, [loadDashboard]);
@@ -180,7 +198,7 @@ const Dashboard = () => {
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-background pt-24 pb-12">
+        <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-background pt-32 md:pt-40 pb-12">
             <div className="container py-8 px-4 md:px-6">
                 {/* Header */}
                 <div className="mb-8 animate-in fade-in slide-in-from-top-4 duration-500">
@@ -216,8 +234,33 @@ const Dashboard = () => {
                     </GlassPanel>
                 )}
 
+                {/* Total Disbursement Box - HIGH PRIORITY */}
+                <div className="mb-8 p-6 rounded-2xl bg-gradient-to-r from-green-600 to-emerald-700 text-white shadow-xl shadow-green-500/20 animate-in fade-in zoom-in duration-700">
+                    <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
+                        <div>
+                            <p className="text-green-100 font-medium mb-1">Total allocation budget / Total Disbursement</p>
+                            <h2 className="text-4xl md:text-5xl font-black tracking-tight">₦454.00B</h2>
+                            <div className="mt-2 flex items-center gap-2">
+                                <span className="flex h-2 w-2 rounded-full bg-green-300 animate-pulse" />
+                                <p className="text-sm text-green-100/80">March 2026 · All 774 LGAs</p>
+                            </div>
+                        </div>
+                        <div className="hidden md:block h-16 w-px bg-white/20" />
+                        <div className="grid grid-cols-2 gap-8">
+                            <div>
+                                <p className="text-xs text-green-200 uppercase tracking-wider mb-1">Total States</p>
+                                <p className="text-2xl font-bold">36 + FCT</p>
+                            </div>
+                            <div>
+                                <p className="text-xs text-green-200 uppercase tracking-wider mb-1">Total LGAs</p>
+                                <p className="text-2xl font-bold">774</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 {/* Stats Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-8">
                     <FloatingCard depth="low" className="p-6 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm animate-in fade-in zoom-in duration-500 delay-100">
                         <div className="flex items-center justify-between mb-4">
                             <div className="p-2 bg-blue-100 dark:bg-blue-900/30 rounded-lg">
@@ -234,7 +277,27 @@ const Dashboard = () => {
                     <FloatingCard depth="low" className="p-6 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm animate-in fade-in zoom-in duration-500 delay-200">
                         <div className="flex items-center justify-between mb-4">
                             <div className="p-2 bg-green-100 dark:bg-green-900/30 rounded-lg">
-                                <BarChart3 className="h-5 w-5 text-green-600 dark:text-green-400" />
+                                <TrendingUp className="h-5 w-5 text-green-600 dark:text-green-400" />
+                            </div>
+                            <div className="flex flex-col items-end gap-1">
+                                <span className="text-xs font-medium text-muted-foreground bg-secondary px-2 py-1 rounded-full">Finance</span>
+                                {profile?.lgas && isAllocationVerified(profile.lgas.name) && (
+                                    <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-green-500/10 text-green-600 dark:text-green-400 border border-green-500/20">
+                                        Verified
+                                    </span>
+                                )}
+                            </div>
+                        </div>
+                        <div className="text-3xl font-bold mb-1">
+                            {profile?.lgas ? formatCurrency(getLgaMarchAllocation(profile.lgas.name, profile.lgas.state) * 1_000_000_000) : "₦0"}
+                        </div>
+                        <p className="text-xs text-muted-foreground">Monthly FAAC (March)</p>
+                    </FloatingCard>
+
+                    <FloatingCard depth="low" className="p-6 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm animate-in fade-in zoom-in duration-500 delay-250">
+                        <div className="flex items-center justify-between mb-4">
+                            <div className="p-2 bg-emerald-100 dark:bg-emerald-900/30 rounded-lg">
+                                <BarChart3 className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
                             </div>
                             <span className="text-xs font-medium text-muted-foreground bg-secondary px-2 py-1 rounded-full">Projects</span>
                         </div>
@@ -269,7 +332,7 @@ const Dashboard = () => {
 
                 {/* Tabs */}
                 <Tabs defaultValue="issues" className="space-y-6 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-500">
-                    <TabsList className="bg-muted/50 p-1 rounded-xl">
+                    <TabsList className="bg-muted/50 p-1 rounded-xl w-full justify-start overflow-x-auto custom-scrollbar">
                         <TabsTrigger value="issues" className="rounded-lg data-[state=active]:bg-white data-[state=active]:shadow-sm">My Issues</TabsTrigger>
                         <TabsTrigger value="rewards" className="rounded-lg data-[state=active]:bg-white data-[state=active]:shadow-sm">Rewards & Progress</TabsTrigger>
                         <TabsTrigger value="profile" className="rounded-lg data-[state=active]:bg-white data-[state=active]:shadow-sm">Profile</TabsTrigger>

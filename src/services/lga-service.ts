@@ -28,7 +28,14 @@ export class LGAService {
         const { data, error } = await query;
 
         if (error) throw error;
-        return data || [];
+        
+        // Enrich with sample data chairmen if not in DB
+        const enriched = (data || []).map(lga => ({
+            ...lga,
+            chairman: lga.chairman || sampleLGADetails[lga.name]?.chairman || "To be updated"
+        }));
+
+        return enriched;
     }
 
     /**

@@ -8,15 +8,37 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { 
     Activity, ArrowDownRight, ArrowUpRight, Brain, 
-    CheckCircle2, DollarSign, Filter, Search, ShieldCheck 
+    CheckCircle2, Filter, Search, ShieldCheck 
 } from 'lucide-react';
 import { GlassPanel } from '@/components/GlassPanel';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 const WorkMatrix = () => {
+    const formatCurrency = (amount: number) => {
+        if (amount >= 1e9) {
+            return `₦${(amount / 1e9).toFixed(2)}B`;
+        }
+        if (amount >= 1e6) {
+            return `₦${(amount / 1e6).toFixed(2)}M`;
+        }
+        return new Intl.NumberFormat("en-NG", {
+            style: "currency",
+            currency: "NGN",
+            minimumFractionDigits: 0,
+            maximumFractionDigits: 0,
+        }).format(amount);
+    };
+
     const [searchTerm, setSearchTerm] = useState("");
     const [sectorFilter, setSectorFilter] = useState("All");
+    const [isMobile, setIsMobile] = useState(typeof window !== 'undefined' ? window.innerWidth < 768 : false);
+
+    React.useEffect(() => {
+        const handleResize = () => setIsMobile(window.innerWidth < 768);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     const matrixData = useMemo(() => {
         const data: any[] = [];
@@ -55,7 +77,7 @@ const WorkMatrix = () => {
     };
 
     return (
-        <div className="min-h-screen bg-[#fafbfc] dark:bg-slate-950 pb-20 pt-24">
+        <div className="min-h-screen bg-[#fafbfc] dark:bg-slate-950 pb-20 pt-32 md:pt-40">
             <div className="container px-4 md:px-6 max-w-7xl mx-auto">
                 {/* Header */}
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-12">
@@ -151,7 +173,7 @@ const WorkMatrix = () => {
                                     name="Spending" 
                                     unit="%" 
                                     tick={{ fontSize: 10 }}
-                                    label={window.innerWidth > 768 ? { value: 'Percentage of Budget Spent', position: 'bottom', offset: -10 } : undefined}
+                                    label={!isMobile ? { value: 'Percentage of Budget Spent', position: 'bottom', offset: -10 } : undefined}
                                 />
                                 <YAxis 
                                     type="number" 
@@ -159,7 +181,7 @@ const WorkMatrix = () => {
                                     name="Work" 
                                     unit="%" 
                                     tick={{ fontSize: 10 }}
-                                    label={window.innerWidth > 768 ? { value: 'Completion Result', angle: -90, position: 'left' } : undefined}
+                                    label={!isMobile ? { value: 'Completion Result', angle: -90, position: 'left' } : undefined}
                                 />
                                 <ZAxis type="number" dataKey="budget" range={[100, 1000]} name="Total Budget" />
                                 <Tooltip 
@@ -174,11 +196,11 @@ const WorkMatrix = () => {
                                                     <div className="space-y-1 border-t pt-2">
                                                         <div className="flex justify-between text-xs">
                                                             <span className="text-muted-foreground">Budget</span>
-                                                            <span className="font-bold">₦{(item.budget / 1e9).toFixed(1)}B</span>
+                                                            <span className="font-bold">{formatCurrency(item.budget)}</span>
                                                         </div>
                                                         <div className="flex justify-between text-xs">
                                                             <span className="text-muted-foreground">Spent</span>
-                                                            <span className="font-bold">₦{(item.spent / 1e9).toFixed(1)}B</span>
+                                                            <span className="font-bold">{formatCurrency(item.spent)}</span>
                                                         </div>
                                                         <div className="flex justify-between text-xs">
                                                             <span className="text-muted-foreground">Result</span>
@@ -258,10 +280,10 @@ const WorkMatrix = () => {
                                                 <div className="font-bold text-xs md:text-sm">{item.name}</div>
                                                 <div className="text-[9px] md:text-[10px] text-muted-foreground uppercase">{item.ministry}</div>
                                             </td>
-                                            <td className="px-6 py-4 font-mono font-bold hidden lg:table-cell">₦{(item.budget / 1e9).toFixed(1)}B</td>
+                                            <td className="px-6 py-4 font-mono font-bold hidden lg:table-cell">{formatCurrency(item.budget)}</td>
                                             <td className="px-4 md:px-6 py-4 font-mono text-xs md:text-sm">
                                                 <span className={item.spent > item.budget * 0.8 ? "text-red-500 font-bold" : ""}>
-                                                    ₦{(item.spent / 1e9).toFixed(1)}B
+                                                    {formatCurrency(item.spent)}
                                                 </span>
                                             </td>
                                             <td className="px-4 md:px-6 py-4">

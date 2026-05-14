@@ -6,12 +6,28 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Search, MapPin, ArrowRight } from "lucide-react";
 import { FloatingCard } from "@/components/FloatingCard";
 import { LGAService } from "@/services/lga-service";
+import { getLgaMarchAllocation, isAllocationVerified } from "@/data/faacData";
 import type { LGA } from "@/types/lga";
 
 const ExploreLGAs = () => {
     const [searchQuery, setSearchQuery] = useState("");
     const [selectedState, setSelectedState] = useState<string>("all");
     const [allLGAs, setAllLGAs] = useState<LGA[]>([]);
+
+    const formatCurrency = (amount: number) => {
+        if (amount >= 1e9) {
+            return `₦${(amount / 1e9).toFixed(2)}B`;
+        }
+        if (amount >= 1e6) {
+            return `₦${(amount / 1e6).toFixed(2)}M`;
+        }
+        return new Intl.NumberFormat("en-NG", {
+            style: "currency",
+            currency: "NGN",
+            minimumFractionDigits: 0,
+            maximumFractionDigits: 0,
+        }).format(amount);
+    };
     const [states, setStates] = useState<string[]>([]);
     const [loading, setLoading] = useState(true);
 
@@ -63,7 +79,7 @@ const ExploreLGAs = () => {
 
     return (
         <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-background">
-            <div className="container py-12 px-4 md:px-6">
+            <div className="container pt-32 md:pt-40 pb-12 px-4 md:px-6">
                 {/* Header */}
                 <div className="mb-12 text-center animate-in fade-in slide-in-from-top-4 duration-700">
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-emerald-600 dark:from-green-400 dark:to-emerald-400">
@@ -132,11 +148,43 @@ const ExploreLGAs = () => {
                                         <div className="p-2 rounded-full bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400">
                                             <MapPin className="h-5 w-5" />
                                         </div>
-                                        <span className="text-xs font-medium px-2 py-1 rounded-full bg-secondary text-secondary-foreground">
-                                            {lga.state}
-                                        </span>
+                                        <div className="flex flex-col items-end gap-1">
+                                            <span className="text-xs font-medium px-2 py-1 rounded-full bg-secondary text-secondary-foreground">
+                                                {lga.state}
+                                            </span>
+                                            { (lga.annual_budget && lga.annual_budget > 0) ? (
+                                                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-green-500/10 text-green-600 dark:text-green-400 border border-green-500/20">
+                                                    Verified Data
+                                                </span>
+                                            ) : isAllocationVerified(lga.name) && (
+                                                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-green-500/10 text-green-600 dark:text-green-400 border border-green-500/20">
+                                                    Verified Data
+                                                </span>
+                                            )}
+                                        </div>
                                     </div>
                                     <h3 className="text-xl font-bold mb-2 line-clamp-1" title={lga.name}>{lga.name}</h3>
+                                    
+                                    {/* Financial Mini-Stat */}
+                                    <div className="mb-4 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-700/50">
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xs text-muted-foreground uppercase tracking-wider font-semibold">Monthly FAAC</span>
+                                            <span className="text-xs text-green-600 dark:text-green-400 font-bold">March</span>
+                                        </div>
+                                        <div className="mt-1 flex items-baseline gap-1">
+                                            <span className="text-xl font-bold text-slate-900 dark:text-white">
+                                                {formatCurrency((lga.annual_budget && lga.annual_budget > 0) ? lga.annual_budget : getLgaMarchAllocation(lga.name, lga.state) * 1_000_000_000)}
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div className="flex flex-col gap-1 mb-4">
+                                        <p className="text-xs font-bold text-primary uppercase tracking-widest">Chairman</p>
+                                        <p className="text-sm font-semibold text-slate-700 dark:text-slate-300 truncate" title={lga.chairman || "To be updated"}>
+                                            {lga.chairman || "To be updated"}
+                                        </p>
+                                    </div>
+
                                     <p className="text-sm text-muted-foreground mb-4">
                                         View detailed statistics, projects, and reports for {lga.name}.
                                     </p>

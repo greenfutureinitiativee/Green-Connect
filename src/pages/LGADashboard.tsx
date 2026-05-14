@@ -64,7 +64,13 @@ const LGADashboard = () => {
     }, [selectedLgaId]);
 
     const formatCurrency = (amount: number) => {
-        return new Intl.NumberFormat('en-NG', { style: 'currency', currency: 'NGN' }).format(amount);
+        if (amount >= 1e9) {
+            return `₦${(amount / 1e9).toFixed(2)}B`;
+        }
+        if (amount >= 1e6) {
+            return `₦${(amount / 1e6).toFixed(2)}M`;
+        }
+        return new Intl.NumberFormat('en-NG', { style: 'currency', currency: 'NGN', minimumFractionDigits: 0 }).format(amount);
     };
 
     // Prepare chart data
@@ -75,7 +81,7 @@ const LGADashboard = () => {
     })).reverse() || [];
 
     return (
-        <div className="container mx-auto p-4 md:p-6 space-y-8">
+        <div className="container mx-auto pt-32 md:pt-40 p-4 md:p-6 space-y-8 min-h-screen bg-slate-50 dark:bg-slate-950">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                 <div>
                     <h1 className="text-3xl font-bold tracking-tight">LGA Financial Dashboard</h1>

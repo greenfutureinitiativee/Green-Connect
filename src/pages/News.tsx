@@ -101,7 +101,7 @@ const News = () => {
     };
 
     return (
-        <div className="min-h-screen bg-slate-50 dark:bg-background py-12 px-4 md:px-6">
+        <div className="min-h-screen bg-slate-50 dark:bg-background pt-32 md:pt-40 pb-12 px-4 md:px-6">
             <div className="container mx-auto max-w-6xl">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
                     <div>

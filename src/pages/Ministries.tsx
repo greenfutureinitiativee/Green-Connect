@@ -34,16 +34,22 @@ const Ministries = () => {
     );
 
     const formatBudget = (amount: number) => {
-        return new Intl.NumberFormat('en-NG', {
-            style: 'currency',
-            currency: 'NGN',
-            notation: 'compact',
-            maximumFractionDigits: 1
+        if (amount >= 1e9) {
+            return `₦${(amount / 1e9).toFixed(2)}B`;
+        }
+        if (amount >= 1e6) {
+            return `₦${(amount / 1e6).toFixed(2)}M`;
+        }
+        return new Intl.NumberFormat("en-NG", {
+            style: "currency",
+            currency: "NGN",
+            minimumFractionDigits: 0,
+            maximumFractionDigits: 0,
         }).format(amount);
     };
 
     return (
-        <div className="min-h-screen pt-24 pb-12 bg-slate-50 dark:bg-slate-950">
+        <div className="min-h-screen bg-[#fafbfc] dark:bg-slate-950 pb-20 pt-32 md:pt-40">
             <div className="container px-4 md:px-6">
                 <div className="flex flex-col items-center text-center space-y-4 mb-12">
                     <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-emerald-600 dark:from-green-400 dark:to-emerald-400">
@@ -109,7 +115,7 @@ const Ministries = () => {
                                             </div>
                                         </CardHeader>
                                         <CardContent className="p-4 md:p-6 pt-0 space-y-6 relative z-1">
-                                            <div className="grid grid-cols-3 gap-2 py-4 border-y bg-muted/10 rounded-lg px-2">
+                                            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 py-4 border-y bg-muted/10 rounded-lg px-2">
                                                 <div className="text-center">
                                                     <p className="text-[10px] text-muted-foreground uppercase font-bold">Allocated</p>
                                                     <p className="font-bold text-sm">{formatBudget(latestFin.allocated)}</p>
@@ -221,7 +227,7 @@ const Ministries = () => {
                                                                     {efficiency}% Efficiency
                                                                 </Badge>
                                                             </div>
-                                                            <div className="grid grid-cols-2 gap-2 text-[11px] mb-2">
+                                                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px] mb-2">
                                                                 <div className="flex justify-between">
                                                                     <span className="text-muted-foreground">Budget:</span>
                                                                     <span className="font-bold">{formatBudget(latest.allocated)}</span>

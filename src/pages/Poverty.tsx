@@ -12,7 +12,7 @@ import { Input } from '@/components/ui/input';
 
 const Poverty = () => {
     return (
-        <div className="min-h-screen bg-[#fafbfc] dark:bg-slate-950 pb-20 pt-24">
+        <div className="min-h-screen pt-32 md:pt-40 pb-20 bg-[#fafbfc] dark:bg-slate-950">
             <div className="container px-4 md:px-6 max-w-7xl mx-auto">
                 {/* Header */}
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-12">

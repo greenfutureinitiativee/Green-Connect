@@ -94,7 +94,7 @@ const PolicyDiscussion = () => {
     const [commentInput, setCommentInput] = useState("");
 
     return (
-        <div className="min-h-screen pt-24 pb-12 bg-slate-50 dark:bg-slate-950">
+        <div className="min-h-screen pt-32 md:pt-40 pb-12 bg-slate-50 dark:bg-slate-950">
             <div className="container px-4 md:px-6">
                 {/* Header Context */}
                 <div className="mb-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">

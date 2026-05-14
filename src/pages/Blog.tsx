@@ -32,7 +32,7 @@ const Blog = () => {
     return (
         <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-background pb-20">
             {/* Hero Section */}
-            <div className="relative py-20 overflow-hidden">
+            <div className="relative pt-32 md:pt-40 pb-20 overflow-hidden">
                 <div className="absolute inset-0 bg-primary/5 -skew-y-3 origin-top-left" />
                 <div className="container relative z-10 px-4 md:px-6">
                     <div className="max-w-3xl">

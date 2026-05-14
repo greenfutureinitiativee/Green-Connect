@@ -200,7 +200,7 @@ const Profile = () => {
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-background">
+        <div className="min-h-screen bg-slate-50 dark:bg-slate-950 pt-32 md:pt-40 pb-12 px-4">
             <div className="container py-8 px-4 md:px-6 max-w-4xl">
                 <div className="mb-8">
                     <h1 className="text-4xl font-bold tracking-tight mb-2">My Profile</h1>

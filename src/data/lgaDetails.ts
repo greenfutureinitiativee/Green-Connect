@@ -382,6 +382,47 @@ export const sampleLGADetails: Record<string, LGADetails> = {
             traditional: [], parties: [{ name: "APC", status: "Ruling" }]
         }
     },
+    // Abia State (Zenith Labour Party swep)
+    "Aba North": { name: "Aba North", state: "Abia", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Timothy Iheke" },
+    "Aba South": { name: "Aba South", state: "Abia", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Anyanwu Obilor" },
+    "Arochukwu": { name: "Arochukwu", state: "Abia", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Okereke Ezearo" },
+    "Bende": { name: "Bende", state: "Abia", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Uwabunkeonye Bassey" },
+    "Ikwuano": { name: "Ikwuano", state: "Abia", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Dr. Anthony Nwaubani" },
+    "Isiala Ngwa North": { name: "Isiala Ngwa North", state: "Abia", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Innocent Uruakpa" },
+    "Isiala Ngwa South": { name: "Isiala Ngwa South", state: "Abia", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Nnadozie Nwaogwugwu" },
+    "Isuikwuato": { name: "Isuikwuato", state: "Abia", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Chinedu Ekeke" },
+    "Obingwa": { name: "Obingwa", state: "Abia", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Maxwell Nwadike" },
+    "Ohafia": { name: "Ohafia", state: "Abia", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Eleanya Oju-Kalu" },
+    
+    // Adamawa State
+    "Mubi South": { name: "Mubi South", state: "Adamawa", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Hamidu A. Jingi" },
+
+    // Akwa Ibom State (Verified)
+    "Udung Uko": { name: "Udung Uko", state: "Akwa Ibom", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Godwin Okponung" },
+    "Urue Offong/Oruko": { name: "Urue Offong/Oruko", state: "Akwa Ibom", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "[Pending]" },
+    "Eastern Obolo": { name: "Eastern Obolo", state: "Akwa Ibom", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Samuel Ntegwaijah" },
+    "Esit Eket": { name: "Esit Eket", state: "Akwa Ibom", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Uduak Ikott" },
+    "Ibeno": { name: "Ibeno", state: "Akwa Ibom", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Glory Ekah Effiong" },
+    "Ika": { name: "Ika", state: "Akwa Ibom", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Utibe Thomas Nwoko" },
+    "Mbo": { name: "Mbo", state: "Akwa Ibom", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Sunday Okon Etim" },
+    "Nsit Atai": { name: "Nsit Atai", state: "Akwa Ibom", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Anthony Effiong Nyong" },
+    "Nsit Ibom": { name: "Nsit Ibom", state: "Akwa Ibom", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Otobong S. Aaron" },
+    "Okobo": { name: "Okobo", state: "Akwa Ibom", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "George Okon Henshaw" },
+    "Oron": { name: "Oron", state: "Akwa Ibom", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Okon Asukwo Enweme" },
+    
+    // Anambra State
+    "Dunukofia": { name: "Dunukofia", state: "Anambra", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Barr. Chijioke Clement Ozumba" },
+
+    // Benue State
+    "Obi": { name: "Obi", state: "Benue", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Hon. Silas Odeh" },
+    "Ohimini": { name: "Ohimini", state: "Benue", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Hon. Adole James Gabriel" },
+    "Tarka": { name: "Tarka", state: "Benue", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Hon. Raphael Aondoseer Yenge" },
+
+    // Borno State
+    "Bayo": { name: "Bayo", state: "Borno", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Maigari M. Abba" },
+    "Kala/Balge": { name: "Kala/Balge", state: "Borno", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "[Pending]" },
+    "Kwaya Kusar": { name: "Kwaya Kusar", state: "Borno", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Babale Abubakar Ibrahim" },
+    "Shani": { name: "Shani", state: "Borno", population: 0, annualBudget: 0, budgetAllocations: [], projects: [], politicians: [], issues: [], chairman: "Jibril Mohammed" },
 };
 
 // Helper function to get LGA details (will query Supabase later)

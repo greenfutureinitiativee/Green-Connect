@@ -40,7 +40,7 @@ const NationalAssembly = () => {
     const parties = ["All", ...Array.from(new Set(sampleRepresentatives.map(r => r.party)))];
 
     return (
-        <div className="min-h-screen bg-[#fafbfc] dark:bg-slate-950 pb-20 pt-24">
+        <div className="min-h-screen bg-[#fafbfc] dark:bg-slate-950 pb-20 pt-32 md:pt-40">
             <div className="container px-4 md:px-6 max-w-7xl mx-auto">
                 {/* Header */}
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-12">

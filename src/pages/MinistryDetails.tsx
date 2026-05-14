@@ -59,10 +59,18 @@ const MinistryDetails = () => {
     const gap = latestFin.allocated - latestFin.spent;
 
     const formatCurrency = (amount: number) => {
-        if (amount >= 1e12) return `₦${(amount / 1e12).toFixed(2)}T`;
-        if (amount >= 1e9) return `₦${(amount / 1e9).toFixed(1)}B`;
-        if (amount >= 1e6) return `₦${(amount / 1e6).toFixed(1)}M`;
-        return `₦${amount.toLocaleString()}`;
+        if (amount >= 1e9) {
+            return `₦${(amount / 1e9).toFixed(2)}B`;
+        }
+        if (amount >= 1e6) {
+            return `₦${(amount / 1e6).toFixed(2)}M`;
+        }
+        return new Intl.NumberFormat("en-NG", {
+            style: "currency",
+            currency: "NGN",
+            minimumFractionDigits: 0,
+            maximumFractionDigits: 0,
+        }).format(amount);
     };
 
     const getStatusColor = (status: string) => {
@@ -87,9 +95,9 @@ const MinistryDetails = () => {
     };
 
     return (
-        <div className="min-h-screen bg-[#fafbfc] dark:bg-slate-950 pb-20">
+        <div className="min-h-screen bg-[#fafbfc] dark:bg-slate-950 pb-20 pt-32 md:pt-40">
             {/* Navigation Header */}
-            <div className="bg-white dark:bg-slate-900 border-b sticky top-0 z-10">
+            <div className="bg-white dark:bg-slate-900 border-b sticky top-[64px] md:top-[80px] z-10">
                 <div className="container mx-auto px-4 h-16 flex items-center justify-between">
                     <div className="flex items-center gap-4">
                         <Link to="/ministries">
@@ -178,7 +186,7 @@ const MinistryDetails = () => {
 
                 {/* Main Content Tabs */}
                 <Tabs defaultValue="projects" className="space-y-6">
-                    <TabsList className="bg-muted/50 p-1 rounded-xl">
+                    <TabsList className="bg-muted/50 p-1 rounded-xl w-full justify-start overflow-x-auto custom-scrollbar">
                         <TabsTrigger value="projects" className="rounded-lg gap-2">
                             <Briefcase className="h-4 w-4" /> Projects Tracking
                         </TabsTrigger>
@@ -216,7 +224,7 @@ const MinistryDetails = () => {
                                             <CardDescription className="line-clamp-2 mt-2">{project.description}</CardDescription>
                                         </CardHeader>
                                         <CardContent className="space-y-4">
-                                            <div className="grid grid-cols-2 gap-4">
+                                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                                 <div className="p-3 rounded-xl bg-muted/30 border border-muted-foreground/5">
                                                     <p className="text-[10px] text-muted-foreground font-bold uppercase tracking-widest mb-1 flex items-center gap-1">
                                                         <Wallet className="h-3 w-3" /> Budget

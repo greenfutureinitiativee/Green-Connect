@@ -158,7 +158,7 @@ const Policies = () => {
     };
 
     return (
-        <div className="min-h-screen pt-24 pb-12 bg-slate-50 dark:bg-slate-950">
+        <div className="min-h-screen pt-32 md:pt-40 pb-12 bg-slate-50 dark:bg-slate-950">
             <div className="container px-4 md:px-6">
                 <div className="flex flex-col items-center text-center space-y-4 mb-16">
                     <div className="inline-flex items-center rounded-full border px-3 py-1 text-sm font-semibold bg-primary/10 text-primary mb-2">

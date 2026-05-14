@@ -252,7 +252,7 @@ const ReportIssue = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-green-50 to-white dark:from-background dark:to-background py-12 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-screen pt-32 md:pt-40 pb-12 bg-slate-50 dark:bg-slate-950 px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto">
                 <div className="mb-8 text-center">
                     <h1 className="text-3xl font-bold text-gradient mb-2">Report an Issue</h1>

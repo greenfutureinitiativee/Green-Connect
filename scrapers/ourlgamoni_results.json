@@ -1,0 +1,4657 @@
+[
+  {
+    "state": "Abia",
+    "lga": "Aba South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 698640000.0,
+    "allocation_raw": "₦698.64M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Umuahia North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 562680000.0,
+    "allocation_raw": "₦562.68M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Ohafia",
+    "chairman": "Data Transparency Portal",
+    "allocation": 545560000.0,
+    "allocation_raw": "₦545.56M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Osisioma",
+    "chairman": "Data Transparency Portal",
+    "allocation": 525950000.00000006,
+    "allocation_raw": "₦525.95M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Bende",
+    "chairman": "Data Transparency Portal",
+    "allocation": 509980000.0,
+    "allocation_raw": "₦509.98M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Obi Ngwa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 498860000.0,
+    "allocation_raw": "₦498.86M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Arochukwu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 497700000.0,
+    "allocation_raw": "₦497.70M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Umuahia South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 491050000.0,
+    "allocation_raw": "₦491.05M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Umu-Nneochi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 489240000.0,
+    "allocation_raw": "₦489.24M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Isiala Ngwa North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 480330000.0,
+    "allocation_raw": "₦480.33M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Ikwuano",
+    "chairman": "Data Transparency Portal",
+    "allocation": 466630000.0,
+    "allocation_raw": "₦466.63M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Isiala Ngwa South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 466180000.0,
+    "allocation_raw": "₦466.18M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Isuikwuato",
+    "chairman": "Data Transparency Portal",
+    "allocation": 453150000.0,
+    "allocation_raw": "₦453.15M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Aba North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 435240000.0,
+    "allocation_raw": "₦435.24M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Ugwunagbo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 411780000.0,
+    "allocation_raw": "₦411.78M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Ukwa West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 409880000.0,
+    "allocation_raw": "₦409.88M"
+  },
+  {
+    "state": "Abia",
+    "lga": "Ukwa East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 391640000.0,
+    "allocation_raw": "₦391.64M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Fufore",
+    "chairman": "Data Transparency Portal",
+    "allocation": 606680000.0,
+    "allocation_raw": "₦606.68M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Shelleng",
+    "chairman": "Data Transparency Portal",
+    "allocation": 578270000.0,
+    "allocation_raw": "₦578.27M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Jada",
+    "chairman": "Data Transparency Portal",
+    "allocation": 556260000.0,
+    "allocation_raw": "₦556.26M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Hong",
+    "chairman": "Data Transparency Portal",
+    "allocation": 541450000.0,
+    "allocation_raw": "₦541.45M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Ganye",
+    "chairman": "Data Transparency Portal",
+    "allocation": 537010000.0,
+    "allocation_raw": "₦537.01M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Demsa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 529539999.99999994,
+    "allocation_raw": "₦529.54M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Toungo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 521299999.99999994,
+    "allocation_raw": "₦521.30M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Yola South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 520360000.0,
+    "allocation_raw": "₦520.36M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Guyuk",
+    "chairman": "Data Transparency Portal",
+    "allocation": 517460000.00000006,
+    "allocation_raw": "₦517.46M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Maiha",
+    "chairman": "Data Transparency Portal",
+    "allocation": 515570000.00000006,
+    "allocation_raw": "₦515.57M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Mayo Belwa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 508390000.0,
+    "allocation_raw": "₦508.39M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Michika",
+    "chairman": "Data Transparency Portal",
+    "allocation": 493630000.0,
+    "allocation_raw": "₦493.63M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Numan",
+    "chairman": "Data Transparency Portal",
+    "allocation": 492490000.0,
+    "allocation_raw": "₦492.49M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Gombi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 488410000.0,
+    "allocation_raw": "₦488.41M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Song",
+    "chairman": "Data Transparency Portal",
+    "allocation": 487180000.0,
+    "allocation_raw": "₦487.18M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Girei",
+    "chairman": "Data Transparency Portal",
+    "allocation": 486280000.0,
+    "allocation_raw": "₦486.28M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Lamurde",
+    "chairman": "Data Transparency Portal",
+    "allocation": 474560000.0,
+    "allocation_raw": "₦474.56M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Mubi North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 467600000.0,
+    "allocation_raw": "₦467.60M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Yola North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 464470000.0,
+    "allocation_raw": "₦464.47M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Madagali",
+    "chairman": "Data Transparency Portal",
+    "allocation": 461900000.0,
+    "allocation_raw": "₦461.90M"
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Mubi South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14130423662.0,
+    "allocation_raw": "₦14,130,423,662"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Uyo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 618280000.0,
+    "allocation_raw": "₦618.28M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Mkpat Enin",
+    "chairman": "Data Transparency Portal",
+    "allocation": 517190000.00000006,
+    "allocation_raw": "₦517.19M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Essien Udim",
+    "chairman": "Data Transparency Portal",
+    "allocation": 517000000.0,
+    "allocation_raw": "₦517.00M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ibiono Ibom",
+    "chairman": "Data Transparency Portal",
+    "allocation": 516090000.00000006,
+    "allocation_raw": "₦516.09M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Oruk Anam",
+    "chairman": "Data Transparency Portal",
+    "allocation": 512280000.0,
+    "allocation_raw": "₦512.28M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Etinan",
+    "chairman": "Data Transparency Portal",
+    "allocation": 506400000.0,
+    "allocation_raw": "₦506.40M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Eket",
+    "chairman": "Data Transparency Portal",
+    "allocation": 502160000.0,
+    "allocation_raw": "₦502.16M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Uruan",
+    "chairman": "Data Transparency Portal",
+    "allocation": 487130000.0,
+    "allocation_raw": "₦487.13M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ikot Ekpene",
+    "chairman": "Data Transparency Portal",
+    "allocation": 483790000.0,
+    "allocation_raw": "₦483.79M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Abak",
+    "chairman": "Data Transparency Portal",
+    "allocation": 483260000.0,
+    "allocation_raw": "₦483.26M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Obot Akara",
+    "chairman": "Data Transparency Portal",
+    "allocation": 482070000.0,
+    "allocation_raw": "₦482.07M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ibesikpo Asutan",
+    "chairman": "Data Transparency Portal",
+    "allocation": 476080000.0,
+    "allocation_raw": "₦476.08M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ukanafun",
+    "chairman": "Data Transparency Portal",
+    "allocation": 472770000.0,
+    "allocation_raw": "₦472.77M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ikot Abasi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 471990000.0,
+    "allocation_raw": "₦471.99M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ikono",
+    "chairman": "Data Transparency Portal",
+    "allocation": 471870000.0,
+    "allocation_raw": "₦471.87M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Nsit Ubium",
+    "chairman": "Data Transparency Portal",
+    "allocation": 465350000.0,
+    "allocation_raw": "₦465.35M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Itu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 460300000.0,
+    "allocation_raw": "₦460.30M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Etim Ekpo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 452280000.0,
+    "allocation_raw": "₦452.28M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Onna",
+    "chairman": "Data Transparency Portal",
+    "allocation": 446430000.0,
+    "allocation_raw": "₦446.43M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ini",
+    "chairman": "Data Transparency Portal",
+    "allocation": 446370000.0,
+    "allocation_raw": "₦446.37M"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Eastern Obolo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 38650490615.0,
+    "allocation_raw": "₦38,650,490,615"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Esit Eket",
+    "chairman": "Data Transparency Portal",
+    "allocation": 38650490615.0,
+    "allocation_raw": "₦38,650,490,615"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ibeno",
+    "chairman": "Data Transparency Portal",
+    "allocation": 38650490615.0,
+    "allocation_raw": "₦38,650,490,615"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ika",
+    "chairman": "Data Transparency Portal",
+    "allocation": 38650490615.0,
+    "allocation_raw": "₦38,650,490,615"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Mbo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 38650490615.0,
+    "allocation_raw": "₦38,650,490,615"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Nsit Atai",
+    "chairman": "Data Transparency Portal",
+    "allocation": 38650490615.0,
+    "allocation_raw": "₦38,650,490,615"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Nsit Ibom",
+    "chairman": "Data Transparency Portal",
+    "allocation": 38650490615.0,
+    "allocation_raw": "₦38,650,490,615"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Okobo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 38650490615.0,
+    "allocation_raw": "₦38,650,490,615"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Oron",
+    "chairman": "Data Transparency Portal",
+    "allocation": 38650490615.0,
+    "allocation_raw": "₦38,650,490,615"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Udung Uko",
+    "chairman": "Data Transparency Portal",
+    "allocation": 38650490615.0,
+    "allocation_raw": "₦38,650,490,615"
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Urue Offong/Oruko",
+    "chairman": "",
+    "allocation": 38650490615.0,
+    "allocation_raw": "₦38,650,490,615"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Idemili North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 720680000.0,
+    "allocation_raw": "₦720.68M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Aguata",
+    "chairman": "Data Transparency Portal",
+    "allocation": 684860000.0,
+    "allocation_raw": "₦684.86M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Ihiala",
+    "chairman": "Data Transparency Portal",
+    "allocation": 615820000.0,
+    "allocation_raw": "₦615.82M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Anaocha",
+    "chairman": "Data Transparency Portal",
+    "allocation": 582730000.0,
+    "allocation_raw": "₦582.73M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Nnewi South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 548420000.0,
+    "allocation_raw": "₦548.42M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Ogbaru",
+    "chairman": "Data Transparency Portal",
+    "allocation": 530470000.0,
+    "allocation_raw": "₦530.47M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Idemili South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 519630000.0,
+    "allocation_raw": "₦519.63M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Awka South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 510300000.0,
+    "allocation_raw": "₦510.30M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Orumba South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 503960000.0,
+    "allocation_raw": "₦503.96M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Orumba North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 495930000.0,
+    "allocation_raw": "₦495.93M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Anambra West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 487640000.0,
+    "allocation_raw": "₦487.64M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Oyi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 486410000.0,
+    "allocation_raw": "₦486.41M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Ayamelum",
+    "chairman": "Data Transparency Portal",
+    "allocation": 479050000.0,
+    "allocation_raw": "₦479.05M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Ekwusigo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 477100000.0,
+    "allocation_raw": "₦477.10M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Anambra East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 475420000.0,
+    "allocation_raw": "₦475.42M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Nnewi North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 471230000.0,
+    "allocation_raw": "₦471.23M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Njikoka",
+    "chairman": "Data Transparency Portal",
+    "allocation": 470710000.0,
+    "allocation_raw": "₦470.71M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Onitsha South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 463550000.0,
+    "allocation_raw": "₦463.55M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Onitsha North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 450610000.0,
+    "allocation_raw": "₦450.61M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Awka North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 447600000.0,
+    "allocation_raw": "₦447.60M"
+  },
+  {
+    "state": "Anambra",
+    "lga": "Dunukofia",
+    "chairman": "Data Transparency Portal",
+    "allocation": 15936904443.0,
+    "allocation_raw": "₦15,936,904,443"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Bauchi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 874510000.0,
+    "allocation_raw": "₦874.51M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Toro",
+    "chairman": "Data Transparency Portal",
+    "allocation": 751140000.0,
+    "allocation_raw": "₦751.14M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Ningi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 745040000.0,
+    "allocation_raw": "₦745.04M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Alkaleri",
+    "chairman": "Data Transparency Portal",
+    "allocation": 725670000.0,
+    "allocation_raw": "₦725.67M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Gamawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 635210000.0,
+    "allocation_raw": "₦635.21M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Katagum",
+    "chairman": "Data Transparency Portal",
+    "allocation": 628090000.0,
+    "allocation_raw": "₦628.09M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Ganjuwa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 627820000.0,
+    "allocation_raw": "₦627.82M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Darazo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 603360000.0,
+    "allocation_raw": "₦603.36M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Misau",
+    "chairman": "Data Transparency Portal",
+    "allocation": 602790000.0,
+    "allocation_raw": "₦602.79M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Shira",
+    "chairman": "Data Transparency Portal",
+    "allocation": 579150000.0,
+    "allocation_raw": "₦579.15M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Tafawa Balewa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 568980000.0,
+    "allocation_raw": "₦568.98M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Itas/Gadau",
+    "chairman": "",
+    "allocation": 544040000.0,
+    "allocation_raw": "₦544.04M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Zaki",
+    "chairman": "Data Transparency Portal",
+    "allocation": 516809999.99999994,
+    "allocation_raw": "₦516.81M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Kirfi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 513890000.0,
+    "allocation_raw": "₦513.89M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Damban",
+    "chairman": "Data Transparency Portal",
+    "allocation": 493110000.0,
+    "allocation_raw": "₦493.11M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Giade",
+    "chairman": "Data Transparency Portal",
+    "allocation": 480720000.0,
+    "allocation_raw": "₦480.72M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Warji",
+    "chairman": "Data Transparency Portal",
+    "allocation": 460560000.0,
+    "allocation_raw": "₦460.56M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Jama'are",
+    "chairman": "Data Transparency Portal",
+    "allocation": 436730000.0,
+    "allocation_raw": "₦436.73M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Bogoro",
+    "chairman": "Data Transparency Portal",
+    "allocation": 427150000.0,
+    "allocation_raw": "₦427.15M"
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Dass",
+    "chairman": "Data Transparency Portal",
+    "allocation": 427120000.0,
+    "allocation_raw": "₦427.12M"
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Southern Ijaw",
+    "chairman": "Data Transparency Portal",
+    "allocation": 1010000000.0,
+    "allocation_raw": "₦1.01B"
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Yenagoa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 981900000.0,
+    "allocation_raw": "₦981.90M"
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Ekeremor",
+    "chairman": "Data Transparency Portal",
+    "allocation": 924770000.0,
+    "allocation_raw": "₦924.77M"
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Brass",
+    "chairman": "Data Transparency Portal",
+    "allocation": 848520000.0,
+    "allocation_raw": "₦848.52M"
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Ogbia",
+    "chairman": "Data Transparency Portal",
+    "allocation": 843560000.0,
+    "allocation_raw": "₦843.56M"
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Sagbama",
+    "chairman": "Data Transparency Portal",
+    "allocation": 840180000.0,
+    "allocation_raw": "₦840.18M"
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Nembe",
+    "chairman": "Data Transparency Portal",
+    "allocation": 812230000.0,
+    "allocation_raw": "₦812.23M"
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Kolokuma/Opokuma",
+    "chairman": "",
+    "allocation": 735640000.0,
+    "allocation_raw": "₦735.64M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Gboko",
+    "chairman": "Data Transparency Portal",
+    "allocation": 701540000.0,
+    "allocation_raw": "₦701.54M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Kwande",
+    "chairman": "Data Transparency Portal",
+    "allocation": 628000000.0,
+    "allocation_raw": "₦628.00M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Makurdi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 611670000.0,
+    "allocation_raw": "₦611.67M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Otukpo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 594240000.0,
+    "allocation_raw": "₦594.24M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Katsina Ala",
+    "chairman": "Data Transparency Portal",
+    "allocation": 589440000.0,
+    "allocation_raw": "₦589.44M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Vandeikya",
+    "chairman": "Data Transparency Portal",
+    "allocation": 576150000.0,
+    "allocation_raw": "₦576.15M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Konshisha",
+    "chairman": "",
+    "allocation": 569580000.0,
+    "allocation_raw": "₦569.58M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Guma",
+    "chairman": "",
+    "allocation": 568370000.0,
+    "allocation_raw": "₦568.37M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Ukum",
+    "chairman": "",
+    "allocation": 561150000.0,
+    "allocation_raw": "₦561.15M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Buruku",
+    "chairman": "",
+    "allocation": 551450000.0,
+    "allocation_raw": "₦551.45M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Ushongo",
+    "chairman": "",
+    "allocation": 543150000.0,
+    "allocation_raw": "₦543.15M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Gwer East",
+    "chairman": "",
+    "allocation": 541040000.0,
+    "allocation_raw": "₦541.04M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Ado",
+    "chairman": "",
+    "allocation": 539410000.0,
+    "allocation_raw": "₦539.41M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Oju",
+    "chairman": "",
+    "allocation": 533280000.0,
+    "allocation_raw": "₦533.28M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Okpokwu",
+    "chairman": "",
+    "allocation": 514210000.00000006,
+    "allocation_raw": "₦514.21M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Logo",
+    "chairman": "",
+    "allocation": 509310000.0,
+    "allocation_raw": "₦509.31M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Agatu",
+    "chairman": "",
+    "allocation": 480000000.0,
+    "allocation_raw": "₦480.00M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Gwer West",
+    "chairman": "",
+    "allocation": 479730000.0,
+    "allocation_raw": "₦479.73M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Ogbadibo",
+    "chairman": "",
+    "allocation": 475720000.0,
+    "allocation_raw": "₦475.72M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Apa",
+    "chairman": "",
+    "allocation": 464730000.0,
+    "allocation_raw": "₦464.73M"
+  },
+  {
+    "state": "Benue",
+    "lga": "Obi",
+    "chairman": "",
+    "allocation": 15165152464.0,
+    "allocation_raw": "₦15,165,152,464"
+  },
+  {
+    "state": "Benue",
+    "lga": "Ohimini",
+    "chairman": "",
+    "allocation": 15165152464.0,
+    "allocation_raw": "₦15,165,152,464"
+  },
+  {
+    "state": "Benue",
+    "lga": "Tarka",
+    "chairman": "Data Transparency Portal",
+    "allocation": 15165152464.0,
+    "allocation_raw": "₦15,165,152,464"
+  },
+  {
+    "state": "Borno",
+    "lga": "Maiduguri",
+    "chairman": "Data Transparency Portal",
+    "allocation": 831360000.0,
+    "allocation_raw": "₦831.36M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Bama",
+    "chairman": "Data Transparency Portal",
+    "allocation": 668030000.0,
+    "allocation_raw": "₦668.03M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Damboa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 640690000.0,
+    "allocation_raw": "₦640.69M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Gwoza",
+    "chairman": "Data Transparency Portal",
+    "allocation": 640630000.0,
+    "allocation_raw": "₦640.63M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Kukawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 619660000.0,
+    "allocation_raw": "₦619.66M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Konduga",
+    "chairman": "Data Transparency Portal",
+    "allocation": 593520000.0,
+    "allocation_raw": "₦593.52M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Ngala",
+    "chairman": "Data Transparency Portal",
+    "allocation": 567650000.0,
+    "allocation_raw": "₦567.65M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Magumeri",
+    "chairman": "Data Transparency Portal",
+    "allocation": 556460000.0,
+    "allocation_raw": "₦556.46M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Biu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 554780000.0,
+    "allocation_raw": "₦554.78M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Jere",
+    "chairman": "Data Transparency Portal",
+    "allocation": 549910000.0,
+    "allocation_raw": "₦549.91M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Gubio",
+    "chairman": "Data Transparency Portal",
+    "allocation": 530730000.0,
+    "allocation_raw": "₦530.73M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Marte",
+    "chairman": "Data Transparency Portal",
+    "allocation": 521940000.00000006,
+    "allocation_raw": "₦521.94M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Askira/Uba",
+    "chairman": "",
+    "allocation": 507940000.0,
+    "allocation_raw": "₦507.94M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Abadam",
+    "chairman": "Data Transparency Portal",
+    "allocation": 506320000.0,
+    "allocation_raw": "₦506.32M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Mobbar",
+    "chairman": "Data Transparency Portal",
+    "allocation": 496500000.0,
+    "allocation_raw": "₦496.50M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Mafa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 491820000.0,
+    "allocation_raw": "₦491.82M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Monguno",
+    "chairman": "Data Transparency Portal",
+    "allocation": 487440000.0,
+    "allocation_raw": "₦487.44M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Nganzai",
+    "chairman": "Data Transparency Portal",
+    "allocation": 482660000.0,
+    "allocation_raw": "₦482.66M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Hawul",
+    "chairman": "Data Transparency Portal",
+    "allocation": 479760000.0,
+    "allocation_raw": "₦479.76M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Kaga",
+    "chairman": "Data Transparency Portal",
+    "allocation": 475810000.0,
+    "allocation_raw": "₦475.81M"
+  },
+  {
+    "state": "Borno",
+    "lga": "Bayo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 16856309208.0,
+    "allocation_raw": "₦16,856,309,208"
+  },
+  {
+    "state": "Borno",
+    "lga": "Chibok",
+    "chairman": "Data Transparency Portal",
+    "allocation": 16856309208.0,
+    "allocation_raw": "₦16,856,309,208"
+  },
+  {
+    "state": "Borno",
+    "lga": "Dikwa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 16856309208.0,
+    "allocation_raw": "₦16,856,309,208"
+  },
+  {
+    "state": "Borno",
+    "lga": "Guzamala",
+    "chairman": "Data Transparency Portal",
+    "allocation": 16856309208.0,
+    "allocation_raw": "₦16,856,309,208"
+  },
+  {
+    "state": "Borno",
+    "lga": "Kala/Balge",
+    "chairman": "",
+    "allocation": 16856309208.0,
+    "allocation_raw": "₦16,856,309,208"
+  },
+  {
+    "state": "Borno",
+    "lga": "Kwaya Kusar",
+    "chairman": "Data Transparency Portal",
+    "allocation": 16856309208.0,
+    "allocation_raw": "₦16,856,309,208"
+  },
+  {
+    "state": "Borno",
+    "lga": "Shani",
+    "chairman": "Data Transparency Portal",
+    "allocation": 16856309208.0,
+    "allocation_raw": "₦16,856,309,208"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Akpabuyo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 568140000.0,
+    "allocation_raw": "₦568.14M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Boki",
+    "chairman": "Data Transparency Portal",
+    "allocation": 547360000.0,
+    "allocation_raw": "₦547.36M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Akamkpa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 546040000.0,
+    "allocation_raw": "₦546.04M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Yala",
+    "chairman": "Data Transparency Portal",
+    "allocation": 540780000.0,
+    "allocation_raw": "₦540.78M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Odukpani",
+    "chairman": "Data Transparency Portal",
+    "allocation": 522210000.00000006,
+    "allocation_raw": "₦522.21M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Ikom",
+    "chairman": "Data Transparency Portal",
+    "allocation": 506240000.0,
+    "allocation_raw": "₦506.24M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Yakurr",
+    "chairman": "Data Transparency Portal",
+    "allocation": 505500000.0,
+    "allocation_raw": "₦505.50M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Biase",
+    "chairman": "Data Transparency Portal",
+    "allocation": 498040000.0,
+    "allocation_raw": "₦498.04M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Ogoja",
+    "chairman": "Data Transparency Portal",
+    "allocation": 496720000.0,
+    "allocation_raw": "₦496.72M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Calabar South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 495360000.0,
+    "allocation_raw": "₦495.36M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Obubra",
+    "chairman": "Data Transparency Portal",
+    "allocation": 494150000.0,
+    "allocation_raw": "₦494.15M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Obudu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 474560000.0,
+    "allocation_raw": "₦474.56M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Calabar Municipal",
+    "chairman": "Data Transparency Portal",
+    "allocation": 473570000.0,
+    "allocation_raw": "₦473.57M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Abi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 471610000.0,
+    "allocation_raw": "₦471.61M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Obanliku",
+    "chairman": "Data Transparency Portal",
+    "allocation": 447480000.0,
+    "allocation_raw": "₦447.48M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Bekwarra",
+    "chairman": "Data Transparency Portal",
+    "allocation": 439080000.0,
+    "allocation_raw": "₦439.08M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Etung",
+    "chairman": "Data Transparency Portal",
+    "allocation": 397670000.0,
+    "allocation_raw": "₦397.67M"
+  },
+  {
+    "state": "Cross River",
+    "lga": "Bakassi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 373740000.0,
+    "allocation_raw": "₦373.74M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Ughelli North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 677970000.0,
+    "allocation_raw": "₦677.97M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Warri North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 642560000.0,
+    "allocation_raw": "₦642.56M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Burutu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 588230000.0,
+    "allocation_raw": "₦588.23M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Isoko South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 586930000.0,
+    "allocation_raw": "₦586.93M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Ika North East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 576480000.0,
+    "allocation_raw": "₦576.48M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Ughelli South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 568960000.0,
+    "allocation_raw": "₦568.96M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Ethiope West",
+    "chairman": "",
+    "allocation": 565260000.0,
+    "allocation_raw": "₦565.26M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Ethiope East",
+    "chairman": "",
+    "allocation": 557520000.0,
+    "allocation_raw": "₦557.52M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Ika South",
+    "chairman": "",
+    "allocation": 551730000.0,
+    "allocation_raw": "₦551.73M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Uvwie",
+    "chairman": "Data Transparency Portal",
+    "allocation": 542390000.0,
+    "allocation_raw": "₦542.39M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Udu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 537360000.0,
+    "allocation_raw": "₦537.36M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Sapele",
+    "chairman": "Data Transparency Portal",
+    "allocation": 532510000.0,
+    "allocation_raw": "₦532.51M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Warri South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 531740000.0,
+    "allocation_raw": "₦531.74M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Isoko North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 529000000.0,
+    "allocation_raw": "₦529.00M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Ndokwa West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 522220000.0,
+    "allocation_raw": "₦522.22M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Oshimili South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 515330000.00000006,
+    "allocation_raw": "₦515.33M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Warri South West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 514400000.0,
+    "allocation_raw": "₦514.40M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Aniocha South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 509150000.0,
+    "allocation_raw": "₦509.15M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Ndokwa East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 499940000.0,
+    "allocation_raw": "₦499.94M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Okpe",
+    "chairman": "Data Transparency Portal",
+    "allocation": 494170000.0,
+    "allocation_raw": "₦494.17M"
+  },
+  {
+    "state": "Delta",
+    "lga": "Aniocha North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 50819521194.0,
+    "allocation_raw": "₦50,819,521,194"
+  },
+  {
+    "state": "Delta",
+    "lga": "Bomadi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 50819521194.0,
+    "allocation_raw": "₦50,819,521,194"
+  },
+  {
+    "state": "Delta",
+    "lga": "Oshimili North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 50819521194.0,
+    "allocation_raw": "₦50,819,521,194"
+  },
+  {
+    "state": "Delta",
+    "lga": "Patani",
+    "chairman": "Data Transparency Portal",
+    "allocation": 50819521194.0,
+    "allocation_raw": "₦50,819,521,194"
+  },
+  {
+    "state": "Delta",
+    "lga": "Ukwuani",
+    "chairman": "Data Transparency Portal",
+    "allocation": 50819521194.0,
+    "allocation_raw": "₦50,819,521,194"
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Izzi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 607600000.0,
+    "allocation_raw": "₦607.60M"
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Onicha",
+    "chairman": "Data Transparency Portal",
+    "allocation": 584630000.0,
+    "allocation_raw": "₦584.63M"
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ikwo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 562790000.0,
+    "allocation_raw": "₦562.79M"
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ohaukwu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 540980000.0,
+    "allocation_raw": "₦540.98M"
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Abakaliki",
+    "chairman": "Data Transparency Portal",
+    "allocation": 510610000.0,
+    "allocation_raw": "₦510.61M"
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ishielu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 503960000.0,
+    "allocation_raw": "₦503.96M"
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Afikpo South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 495860000.0,
+    "allocation_raw": "₦495.86M"
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ohaozara",
+    "chairman": "Data Transparency Portal",
+    "allocation": 495600000.0,
+    "allocation_raw": "₦495.60M"
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Afikpo North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 493210000.0,
+    "allocation_raw": "₦493.21M"
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ezza South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 488180000.0,
+    "allocation_raw": "₦488.18M"
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ezza North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 480900000.0,
+    "allocation_raw": "₦480.90M"
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ebonyi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 476000000.0,
+    "allocation_raw": "₦476.00M"
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ivo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 465710000.0,
+    "allocation_raw": "₦465.71M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Oredo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 739940000.0,
+    "allocation_raw": "₦739.94M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Ikpoba Okha",
+    "chairman": "Data Transparency Portal",
+    "allocation": 727780000.0,
+    "allocation_raw": "₦727.78M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Egor",
+    "chairman": "Data Transparency Portal",
+    "allocation": 681720000.0,
+    "allocation_raw": "₦681.72M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Akoko Edo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 675740000.0,
+    "allocation_raw": "₦675.74M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Etsako West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 598640000.0,
+    "allocation_raw": "₦598.64M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Orhionmwon",
+    "chairman": "Data Transparency Portal",
+    "allocation": 596210000.0,
+    "allocation_raw": "₦596.21M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Ovia South West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 594030000.0,
+    "allocation_raw": "₦594.03M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Ovia North East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 573110000.0,
+    "allocation_raw": "₦573.11M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Esan South East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 565290000.0,
+    "allocation_raw": "₦565.29M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Owan East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 560860000.0,
+    "allocation_raw": "₦560.86M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Uhunmwonde",
+    "chairman": "Data Transparency Portal",
+    "allocation": 556210000.0,
+    "allocation_raw": "₦556.21M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Etsako East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 554920000.0,
+    "allocation_raw": "₦554.92M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Esan West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 510410000.0,
+    "allocation_raw": "₦510.41M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Esan North East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 504270000.0,
+    "allocation_raw": "₦504.27M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Etsako Central",
+    "chairman": "Data Transparency Portal",
+    "allocation": 500950000.0,
+    "allocation_raw": "₦500.95M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Esan Central",
+    "chairman": "Data Transparency Portal",
+    "allocation": 493240000.0,
+    "allocation_raw": "₦493.24M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Owan West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 493020000.0,
+    "allocation_raw": "₦493.02M"
+  },
+  {
+    "state": "Edo",
+    "lga": "Igueben",
+    "chairman": "Data Transparency Portal",
+    "allocation": 476370000.0,
+    "allocation_raw": "₦476.37M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ado-Ekiti",
+    "chairman": "Data Transparency Portal",
+    "allocation": 598240000.0,
+    "allocation_raw": "₦598.24M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ijero",
+    "chairman": "Data Transparency Portal",
+    "allocation": 529380000.0,
+    "allocation_raw": "₦529.38M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ikole",
+    "chairman": "Data Transparency Portal",
+    "allocation": 493540000.0,
+    "allocation_raw": "₦493.54M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ekiti West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 492520000.0,
+    "allocation_raw": "₦492.52M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ido-Osi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 490300000.0,
+    "allocation_raw": "₦490.30M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ekiti South West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 482690000.0,
+    "allocation_raw": "₦482.69M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ikere",
+    "chairman": "Data Transparency Portal",
+    "allocation": 468070000.0,
+    "allocation_raw": "₦468.07M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Moba",
+    "chairman": "Data Transparency Portal",
+    "allocation": 467160000.0,
+    "allocation_raw": "₦467.16M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Gbonyin",
+    "chairman": "Data Transparency Portal",
+    "allocation": 466170000.0,
+    "allocation_raw": "₦466.17M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ekiti East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 458940000.0,
+    "allocation_raw": "₦458.94M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Oye",
+    "chairman": "Data Transparency Portal",
+    "allocation": 455990000.0,
+    "allocation_raw": "₦455.99M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Irepodun/Ifelodun",
+    "chairman": "",
+    "allocation": 450050000.0,
+    "allocation_raw": "₦450.05M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ise/Orun",
+    "chairman": "",
+    "allocation": 439190000.0,
+    "allocation_raw": "₦439.19M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Efon",
+    "chairman": "Data Transparency Portal",
+    "allocation": 435000000.0,
+    "allocation_raw": "₦435.00M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Emure",
+    "chairman": "Data Transparency Portal",
+    "allocation": 416820000.0,
+    "allocation_raw": "₦416.82M"
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ilejemeje",
+    "chairman": "Data Transparency Portal",
+    "allocation": 370350000.0,
+    "allocation_raw": "₦370.35M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Nsukka",
+    "chairman": "Data Transparency Portal",
+    "allocation": 637510000.0,
+    "allocation_raw": "₦637.51M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Enugu East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 602470000.0,
+    "allocation_raw": "₦602.47M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Igbo Eze North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 579890000.0,
+    "allocation_raw": "₦579.89M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Enugu North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 569900000.0,
+    "allocation_raw": "₦569.90M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Udi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 560140000.0,
+    "allocation_raw": "₦560.14M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Enugu South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 544210000.0,
+    "allocation_raw": "₦544.21M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Igbo Etiti",
+    "chairman": "Data Transparency Portal",
+    "allocation": 537740000.0,
+    "allocation_raw": "₦537.74M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Awgu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 532270000.0,
+    "allocation_raw": "₦532.27M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Ezeagu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 522400000.0,
+    "allocation_raw": "₦522.40M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Igbo Eze South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 513669999.99999994,
+    "allocation_raw": "₦513.67M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Nkanu East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 507450000.0,
+    "allocation_raw": "₦507.45M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Udenu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 502610000.0,
+    "allocation_raw": "₦502.61M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Nkanu West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 497740000.0,
+    "allocation_raw": "₦497.74M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Isi-Uzo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 493370000.0,
+    "allocation_raw": "₦493.37M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Uzo-Uwani",
+    "chairman": "Data Transparency Portal",
+    "allocation": 468140000.0,
+    "allocation_raw": "₦468.14M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Aninri",
+    "chairman": "Data Transparency Portal",
+    "allocation": 461760000.0,
+    "allocation_raw": "₦461.76M"
+  },
+  {
+    "state": "Enugu",
+    "lga": "Oji-River",
+    "chairman": "Data Transparency Portal",
+    "allocation": 457820000.0,
+    "allocation_raw": "₦457.82M"
+  },
+  {
+    "state": "Gombe",
+    "lga": "Akko",
+    "chairman": "Data Transparency Portal",
+    "allocation": 728470000.0,
+    "allocation_raw": "₦728.47M"
+  },
+  {
+    "state": "Gombe",
+    "lga": "Gombe",
+    "chairman": "Data Transparency Portal",
+    "allocation": 637980000.0,
+    "allocation_raw": "₦637.98M"
+  },
+  {
+    "state": "Gombe",
+    "lga": "Yamaltu/Deba",
+    "chairman": "",
+    "allocation": 631250000.0,
+    "allocation_raw": "₦631.25M"
+  },
+  {
+    "state": "Gombe",
+    "lga": "Dukku",
+    "chairman": "Data Transparency Portal",
+    "allocation": 598440000.0,
+    "allocation_raw": "₦598.44M"
+  },
+  {
+    "state": "Gombe",
+    "lga": "Funakaye",
+    "chairman": "Data Transparency Portal",
+    "allocation": 597800000.0,
+    "allocation_raw": "₦597.80M"
+  },
+  {
+    "state": "Gombe",
+    "lga": "Balanga",
+    "chairman": "Data Transparency Portal",
+    "allocation": 569200000.0,
+    "allocation_raw": "₦569.20M"
+  },
+  {
+    "state": "Gombe",
+    "lga": "Billiri",
+    "chairman": "Data Transparency Portal",
+    "allocation": 568050000.0,
+    "allocation_raw": "₦568.05M"
+  },
+  {
+    "state": "Gombe",
+    "lga": "Kwami",
+    "chairman": "Data Transparency Portal",
+    "allocation": 556470000.0,
+    "allocation_raw": "₦556.47M"
+  },
+  {
+    "state": "Gombe",
+    "lga": "Kaltungo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 521230000.0,
+    "allocation_raw": "₦521.23M"
+  },
+  {
+    "state": "Gombe",
+    "lga": "Nafada",
+    "chairman": "Data Transparency Portal",
+    "allocation": 511220000.0,
+    "allocation_raw": "₦511.22M"
+  },
+  {
+    "state": "Gombe",
+    "lga": "Shongom",
+    "chairman": "Data Transparency Portal",
+    "allocation": 500650000.0,
+    "allocation_raw": "₦500.65M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Mbaitoli",
+    "chairman": "Data Transparency Portal",
+    "allocation": 544210000.0,
+    "allocation_raw": "₦544.21M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Isiala Mbano",
+    "chairman": "Data Transparency Portal",
+    "allocation": 505180000.0,
+    "allocation_raw": "₦505.18M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Ohaji/Egbema",
+    "chairman": "",
+    "allocation": 499810000.0,
+    "allocation_raw": "₦499.81M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Aboh Mbaise",
+    "chairman": "Data Transparency Portal",
+    "allocation": 488560000.0,
+    "allocation_raw": "₦488.56M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Ideato South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 474450000.0,
+    "allocation_raw": "₦474.45M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Ideato North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 473050000.0,
+    "allocation_raw": "₦473.05M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Ngor Okpala",
+    "chairman": "Data Transparency Portal",
+    "allocation": 470980000.0,
+    "allocation_raw": "₦470.98M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Owerri North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 466080000.0,
+    "allocation_raw": "₦466.08M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Oguta",
+    "chairman": "Data Transparency Portal",
+    "allocation": 464810000.0,
+    "allocation_raw": "₦464.81M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Ahiazu Mbaise",
+    "chairman": "Data Transparency Portal",
+    "allocation": 464170000.0,
+    "allocation_raw": "₦464.17M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Isu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 459800000.0,
+    "allocation_raw": "₦459.80M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Ikeduru",
+    "chairman": "Data Transparency Portal",
+    "allocation": 456590000.0,
+    "allocation_raw": "₦456.59M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Ezinihitte Mbaise",
+    "chairman": "Data Transparency Portal",
+    "allocation": 456410000.0,
+    "allocation_raw": "₦456.41M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Okigwe",
+    "chairman": "Data Transparency Portal",
+    "allocation": 447190000.0,
+    "allocation_raw": "₦447.19M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Orlu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 444440000.0,
+    "allocation_raw": "₦444.44M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Njaba",
+    "chairman": "Data Transparency Portal",
+    "allocation": 439610000.0,
+    "allocation_raw": "₦439.61M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Owerri Municipal",
+    "chairman": "Data Transparency Portal",
+    "allocation": 435110000.0,
+    "allocation_raw": "₦435.11M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Ihitte/Uboma",
+    "chairman": "",
+    "allocation": 432870000.0,
+    "allocation_raw": "₦432.87M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Orsu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 430440000.0,
+    "allocation_raw": "₦430.44M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Ehime Mbano",
+    "chairman": "Data Transparency Portal",
+    "allocation": 430090000.0,
+    "allocation_raw": "₦430.09M"
+  },
+  {
+    "state": "Imo",
+    "lga": "Nkwerre",
+    "chairman": "Data Transparency Portal",
+    "allocation": 15555570533.0,
+    "allocation_raw": "₦15,555,570,533"
+  },
+  {
+    "state": "Imo",
+    "lga": "Nwangele",
+    "chairman": "Data Transparency Portal",
+    "allocation": 15555570533.0,
+    "allocation_raw": "₦15,555,570,533"
+  },
+  {
+    "state": "Imo",
+    "lga": "Obowo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 15555570533.0,
+    "allocation_raw": "₦15,555,570,533"
+  },
+  {
+    "state": "Imo",
+    "lga": "Onuimo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 15555570533.0,
+    "allocation_raw": "₦15,555,570,533"
+  },
+  {
+    "state": "Imo",
+    "lga": "Oru East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 15555570533.0,
+    "allocation_raw": "₦15,555,570,533"
+  },
+  {
+    "state": "Imo",
+    "lga": "Oru West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 15555570533.0,
+    "allocation_raw": "₦15,555,570,533"
+  },
+  {
+    "state": "Imo",
+    "lga": "Owerri West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 15555570533.0,
+    "allocation_raw": "₦15,555,570,533"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Birnin Kudu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 642820000.0,
+    "allocation_raw": "₦642.82M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Gwaram",
+    "chairman": "Data Transparency Portal",
+    "allocation": 617180000.0,
+    "allocation_raw": "₦617.18M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Kafin Hausa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 603890000.0,
+    "allocation_raw": "₦603.89M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Buji",
+    "chairman": "Data Transparency Portal",
+    "allocation": 579030000.0,
+    "allocation_raw": "₦579.03M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Jahun",
+    "chairman": "Data Transparency Portal",
+    "allocation": 551860000.0,
+    "allocation_raw": "₦551.86M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Ringim",
+    "chairman": "Data Transparency Portal",
+    "allocation": 540310000.0,
+    "allocation_raw": "₦540.31M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Babura",
+    "chairman": "Data Transparency Portal",
+    "allocation": 536850000.0,
+    "allocation_raw": "₦536.85M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Maigatari",
+    "chairman": "Data Transparency Portal",
+    "allocation": 520320000.00000006,
+    "allocation_raw": "₦520.32M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Kiyawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 515669999.99999994,
+    "allocation_raw": "₦515.67M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Kiri Kasama",
+    "chairman": "Data Transparency Portal",
+    "allocation": 511990000.0,
+    "allocation_raw": "₦511.99M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Sule Tankarkar",
+    "chairman": "Data Transparency Portal",
+    "allocation": 498900000.0,
+    "allocation_raw": "₦498.90M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Garki",
+    "chairman": "Data Transparency Portal",
+    "allocation": 498500000.0,
+    "allocation_raw": "₦498.50M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Biriniwa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 497820000.0,
+    "allocation_raw": "₦497.82M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Malam Madori",
+    "chairman": "Data Transparency Portal",
+    "allocation": 495900000.0,
+    "allocation_raw": "₦495.90M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Kazaure",
+    "chairman": "Data Transparency Portal",
+    "allocation": 490960000.0,
+    "allocation_raw": "₦490.96M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Gwiwa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 476250000.0,
+    "allocation_raw": "₦476.25M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Taura",
+    "chairman": "Data Transparency Portal",
+    "allocation": 472890000.0,
+    "allocation_raw": "₦472.89M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Auyo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 466250000.0,
+    "allocation_raw": "₦466.25M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Guri",
+    "chairman": "Data Transparency Portal",
+    "allocation": 465830000.0,
+    "allocation_raw": "₦465.83M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Kaugama",
+    "chairman": "Data Transparency Portal",
+    "allocation": 465560000.0,
+    "allocation_raw": "₦465.56M"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Dutse",
+    "chairman": "Data Transparency Portal",
+    "allocation": 16504661556.0,
+    "allocation_raw": "₦16,504,661,556"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Gagarawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 16504661556.0,
+    "allocation_raw": "₦16,504,661,556"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Gumel",
+    "chairman": "Data Transparency Portal",
+    "allocation": 16504661556.0,
+    "allocation_raw": "₦16,504,661,556"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Hadejia",
+    "chairman": "Data Transparency Portal",
+    "allocation": 16504661556.0,
+    "allocation_raw": "₦16,504,661,556"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Miga",
+    "chairman": "Data Transparency Portal",
+    "allocation": 16504661556.0,
+    "allocation_raw": "₦16,504,661,556"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Roni",
+    "chairman": "Data Transparency Portal",
+    "allocation": 16504661556.0,
+    "allocation_raw": "₦16,504,661,556"
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Yankwashi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 16504661556.0,
+    "allocation_raw": "₦16,504,661,556"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kajuru",
+    "chairman": "Data Transparency Portal",
+    "allocation": 766770000.0,
+    "allocation_raw": "₦766.77M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Chikun",
+    "chairman": "Data Transparency Portal",
+    "allocation": 728520000.0,
+    "allocation_raw": "₦728.52M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Zaria",
+    "chairman": "Data Transparency Portal",
+    "allocation": 716420000.0,
+    "allocation_raw": "₦716.42M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kaduna North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 696090000.0,
+    "allocation_raw": "₦696.09M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Birnin Gwari",
+    "chairman": "Data Transparency Portal",
+    "allocation": 685040000.0,
+    "allocation_raw": "₦685.04M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Zangon Kataf",
+    "chairman": "Data Transparency Portal",
+    "allocation": 679010000.0,
+    "allocation_raw": "₦679.01M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Lere",
+    "chairman": "Data Transparency Portal",
+    "allocation": 659060000.0,
+    "allocation_raw": "₦659.06M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kachia",
+    "chairman": "Data Transparency Portal",
+    "allocation": 656580000.0,
+    "allocation_raw": "₦656.58M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Jema'a",
+    "chairman": "Data Transparency Portal",
+    "allocation": 643390000.0,
+    "allocation_raw": "₦643.39M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Soba",
+    "chairman": "Data Transparency Portal",
+    "allocation": 626650000.0,
+    "allocation_raw": "₦626.65M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Giwa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 624010000.0,
+    "allocation_raw": "₦624.01M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Jaba",
+    "chairman": "Data Transparency Portal",
+    "allocation": 614650000.0,
+    "allocation_raw": "₦614.65M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kubau",
+    "chairman": "Data Transparency Portal",
+    "allocation": 614390000.0,
+    "allocation_raw": "₦614.39M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Sabon Gari",
+    "chairman": "Data Transparency Portal",
+    "allocation": 600210000.0,
+    "allocation_raw": "₦600.21M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kaduna South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 590750000.0,
+    "allocation_raw": "₦590.75M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Igabi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 539950000.0,
+    "allocation_raw": "₦539.95M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kaura",
+    "chairman": "Data Transparency Portal",
+    "allocation": 536120000.0,
+    "allocation_raw": "₦536.12M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kauru",
+    "chairman": "Data Transparency Portal",
+    "allocation": 529090000.00000006,
+    "allocation_raw": "₦529.09M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Sanga",
+    "chairman": "Data Transparency Portal",
+    "allocation": 500100000.0,
+    "allocation_raw": "₦500.10M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kudan",
+    "chairman": "Data Transparency Portal",
+    "allocation": 486690000.0,
+    "allocation_raw": "₦486.69M"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Ikara",
+    "chairman": "Data Transparency Portal",
+    "allocation": 12488876704.0,
+    "allocation_raw": "₦12,488,876,704"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kagarko",
+    "chairman": "Data Transparency Portal",
+    "allocation": 12488876704.0,
+    "allocation_raw": "₦12,488,876,704"
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Makarfi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 12488876704.0,
+    "allocation_raw": "₦12,488,876,704"
+  },
+  {
+    "state": "Kano",
+    "lga": "Nasarawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 905780000.0,
+    "allocation_raw": "₦905.78M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Dala",
+    "chairman": "Data Transparency Portal",
+    "allocation": 751360000.0,
+    "allocation_raw": "₦751.36M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Gwale",
+    "chairman": "Data Transparency Portal",
+    "allocation": 698620000.0,
+    "allocation_raw": "₦698.62M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Kano Municipal",
+    "chairman": "Data Transparency Portal",
+    "allocation": 685370000.0,
+    "allocation_raw": "₦685.37M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Ungogo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 675970000.0,
+    "allocation_raw": "₦675.97M"
+  },
+  {
+    "state": "Kano",
+    "lga": "kumbotso",
+    "chairman": "Data Transparency Portal",
+    "allocation": 618280000.0,
+    "allocation_raw": "₦618.28M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Bichi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 608080000.0,
+    "allocation_raw": "₦608.08M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Gezawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 604560000.0,
+    "allocation_raw": "₦604.56M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Kiru",
+    "chairman": "Data Transparency Portal",
+    "allocation": 601120000.0,
+    "allocation_raw": "₦601.12M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Sumaila",
+    "chairman": "Data Transparency Portal",
+    "allocation": 591760000.0,
+    "allocation_raw": "₦591.76M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Dawakin Tofa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 581100000.0,
+    "allocation_raw": "₦581.10M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Tudun Wada",
+    "chairman": "Data Transparency Portal",
+    "allocation": 577290000.0,
+    "allocation_raw": "₦577.29M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Dawakin Kudu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 571850000.0,
+    "allocation_raw": "₦571.85M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Rogo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 569370000.0,
+    "allocation_raw": "₦569.37M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Makoda",
+    "chairman": "Data Transparency Portal",
+    "allocation": 557070000.0,
+    "allocation_raw": "₦557.07M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Minjibir",
+    "chairman": "Data Transparency Portal",
+    "allocation": 556860000.0,
+    "allocation_raw": "₦556.86M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Gabasawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 552810000.0,
+    "allocation_raw": "₦552.81M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Tarauni",
+    "chairman": "Data Transparency Portal",
+    "allocation": 552360000.0,
+    "allocation_raw": "₦552.36M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Dambatta",
+    "chairman": "Data Transparency Portal",
+    "allocation": 543620000.0,
+    "allocation_raw": "₦543.62M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Gaya",
+    "chairman": "Data Transparency Portal",
+    "allocation": 536880000.0,
+    "allocation_raw": "₦536.88M"
+  },
+  {
+    "state": "Kano",
+    "lga": "Ajingi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Albasu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Bagwai",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Bebeji",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Bunkure",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Doguwa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Fagge",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Garko",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Garun Malam",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Gwarzo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Kabo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Karaye",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Kibiya",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Kunchi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Kura",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Madobi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Rano",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Rimin Gado",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Shanono",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Takai",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Tofa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Tsanyawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Warawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Kano",
+    "lga": "Wudil",
+    "chairman": "Data Transparency Portal",
+    "allocation": 22739963133.0,
+    "allocation_raw": "₦22,739,963,133"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Katsina",
+    "chairman": "Data Transparency Portal",
+    "allocation": 636680000.0,
+    "allocation_raw": "₦636.68M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Kankara",
+    "chairman": "Data Transparency Portal",
+    "allocation": 579530000.0,
+    "allocation_raw": "₦579.53M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Funtua",
+    "chairman": "Data Transparency Portal",
+    "allocation": 551100000.0,
+    "allocation_raw": "₦551.10M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Daura",
+    "chairman": "Data Transparency Portal",
+    "allocation": 550430000.0,
+    "allocation_raw": "₦550.43M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Kafur",
+    "chairman": "Data Transparency Portal",
+    "allocation": 549290000.0,
+    "allocation_raw": "₦549.29M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Batsari",
+    "chairman": "Data Transparency Portal",
+    "allocation": 548320000.0,
+    "allocation_raw": "₦548.32M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Faskari",
+    "chairman": "Data Transparency Portal",
+    "allocation": 542740000.0,
+    "allocation_raw": "₦542.74M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Kaita",
+    "chairman": "Data Transparency Portal",
+    "allocation": 529000000.0,
+    "allocation_raw": "₦529.00M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Jibia",
+    "chairman": "Data Transparency Portal",
+    "allocation": 528370000.0,
+    "allocation_raw": "₦528.37M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Mai'Adua",
+    "chairman": "Data Transparency Portal",
+    "allocation": 525250000.0,
+    "allocation_raw": "₦525.25M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Baure",
+    "chairman": "Data Transparency Portal",
+    "allocation": 523640000.0,
+    "allocation_raw": "₦523.64M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Malumfashi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 518039999.99999994,
+    "allocation_raw": "₦518.04M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Batagarawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 513440000.00000006,
+    "allocation_raw": "₦513.44M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Safana",
+    "chairman": "Data Transparency Portal",
+    "allocation": 511640000.0,
+    "allocation_raw": "₦511.64M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Musawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 507030000.0,
+    "allocation_raw": "₦507.03M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Dutsin-Ma",
+    "chairman": "Data Transparency Portal",
+    "allocation": 506850000.0,
+    "allocation_raw": "₦506.85M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Mashi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 505060000.0,
+    "allocation_raw": "₦505.06M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Mani",
+    "chairman": "Data Transparency Portal",
+    "allocation": 499950000.0,
+    "allocation_raw": "₦499.95M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Bakori",
+    "chairman": "Data Transparency Portal",
+    "allocation": 493360000.0,
+    "allocation_raw": "₦493.36M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Ingawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 491250000.0,
+    "allocation_raw": "₦491.25M"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Bindawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14902676186.0,
+    "allocation_raw": "₦14,902,676,186"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Charanchi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14902676186.0,
+    "allocation_raw": "₦14,902,676,186"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Dan Musa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14902676186.0,
+    "allocation_raw": "₦14,902,676,186"
+  },
+  {
+    "state": "Katsina",
+    "lga": "DanDume",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14902676186.0,
+    "allocation_raw": "₦14,902,676,186"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Danja",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14902676186.0,
+    "allocation_raw": "₦14,902,676,186"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Dutsi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14902676186.0,
+    "allocation_raw": "₦14,902,676,186"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Kankia",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14902676186.0,
+    "allocation_raw": "₦14,902,676,186"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Kurfi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14902676186.0,
+    "allocation_raw": "₦14,902,676,186"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Kusada",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14902676186.0,
+    "allocation_raw": "₦14,902,676,186"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Matazu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14902676186.0,
+    "allocation_raw": "₦14,902,676,186"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Rimi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14902676186.0,
+    "allocation_raw": "₦14,902,676,186"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Sabuwa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14902676186.0,
+    "allocation_raw": "₦14,902,676,186"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Sandamu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14902676186.0,
+    "allocation_raw": "₦14,902,676,186"
+  },
+  {
+    "state": "Katsina",
+    "lga": "Zango",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14902676186.0,
+    "allocation_raw": "₦14,902,676,186"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Birnin Kebbi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 671650000.0,
+    "allocation_raw": "₦671.65M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Danko-Wasagu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 627360000.0,
+    "allocation_raw": "₦627.36M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Arewa Dandi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 595080000.0,
+    "allocation_raw": "₦595.08M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Bagudo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 583790000.0,
+    "allocation_raw": "₦583.79M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Maiyama",
+    "chairman": "Data Transparency Portal",
+    "allocation": 559700000.0,
+    "allocation_raw": "₦559.70M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Suru",
+    "chairman": "Data Transparency Portal",
+    "allocation": 548810000.0,
+    "allocation_raw": "₦548.81M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Argungu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 538900000.0,
+    "allocation_raw": "₦538.90M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Jega",
+    "chairman": "Data Transparency Portal",
+    "allocation": 532330000.00000006,
+    "allocation_raw": "₦532.33M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Zuru",
+    "chairman": "Data Transparency Portal",
+    "allocation": 525380000.0,
+    "allocation_raw": "₦525.38M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Dandi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 514640000.0,
+    "allocation_raw": "₦514.64M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Koko/Besse",
+    "chairman": "",
+    "allocation": 506250000.0,
+    "allocation_raw": "₦506.25M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Gwandu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 489930000.0,
+    "allocation_raw": "₦489.93M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Bunza",
+    "chairman": "Data Transparency Portal",
+    "allocation": 489350000.0,
+    "allocation_raw": "₦489.35M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Shanga",
+    "chairman": "Data Transparency Portal",
+    "allocation": 482170000.0,
+    "allocation_raw": "₦482.17M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Ngaski",
+    "chairman": "Data Transparency Portal",
+    "allocation": 475150000.0,
+    "allocation_raw": "₦475.15M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Fakai",
+    "chairman": "Data Transparency Portal",
+    "allocation": 465580000.0,
+    "allocation_raw": "₦465.58M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Sakaba",
+    "chairman": "Data Transparency Portal",
+    "allocation": 460340000.0,
+    "allocation_raw": "₦460.34M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Augie",
+    "chairman": "Data Transparency Portal",
+    "allocation": 459070000.0,
+    "allocation_raw": "₦459.07M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Yauri",
+    "chairman": "Data Transparency Portal",
+    "allocation": 453770000.0,
+    "allocation_raw": "₦453.77M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Kalgo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 446370000.0,
+    "allocation_raw": "₦446.37M"
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Aliero",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14577903439.0,
+    "allocation_raw": "₦14,577,903,439"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Okene",
+    "chairman": "Data Transparency Portal",
+    "allocation": 669550000.0,
+    "allocation_raw": "₦669.55M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Dekina",
+    "chairman": "Data Transparency Portal",
+    "allocation": 636760000.0,
+    "allocation_raw": "₦636.76M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Ankpa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 607940000.0,
+    "allocation_raw": "₦607.94M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Lokoja",
+    "chairman": "Data Transparency Portal",
+    "allocation": 572270000.0,
+    "allocation_raw": "₦572.27M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Ofu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 556700000.0,
+    "allocation_raw": "₦556.70M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Adavi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 548780000.0,
+    "allocation_raw": "₦548.78M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Okehi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 548050000.0,
+    "allocation_raw": "₦548.05M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Yagba East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 518520000.0,
+    "allocation_raw": "₦518.52M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Olamaboro",
+    "chairman": "Data Transparency Portal",
+    "allocation": 517130000.0,
+    "allocation_raw": "₦517.13M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Kabba/Bunu",
+    "chairman": "",
+    "allocation": 516960000.00000006,
+    "allocation_raw": "₦516.96M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Yagba West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 508830000.0,
+    "allocation_raw": "₦508.83M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Igalamela Odolu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 506320000.0,
+    "allocation_raw": "₦506.32M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Ibaji",
+    "chairman": "Data Transparency Portal",
+    "allocation": 505450000.0,
+    "allocation_raw": "₦505.45M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Ijumu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 491630000.0,
+    "allocation_raw": "₦491.63M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Bassa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 490380000.0,
+    "allocation_raw": "₦490.38M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Ajaokuta",
+    "chairman": "Data Transparency Portal",
+    "allocation": 485120000.0,
+    "allocation_raw": "₦485.12M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Omala",
+    "chairman": "Data Transparency Portal",
+    "allocation": 484220000.0,
+    "allocation_raw": "₦484.22M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Kogi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 469270000.0,
+    "allocation_raw": "₦469.27M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Idah",
+    "chairman": "Data Transparency Portal",
+    "allocation": 439670000.0,
+    "allocation_raw": "₦439.67M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Mopa-Muro",
+    "chairman": "Data Transparency Portal",
+    "allocation": 402430000.0,
+    "allocation_raw": "₦402.43M"
+  },
+  {
+    "state": "Kogi",
+    "lga": "Ogori/Magongo",
+    "chairman": "",
+    "allocation": 13806647298.0,
+    "allocation_raw": "₦13,806,647,298"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Baruten",
+    "chairman": "Data Transparency Portal",
+    "allocation": 679700000.0,
+    "allocation_raw": "₦679.70M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Ilorin West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 651420000.0,
+    "allocation_raw": "₦651.42M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Ifelodun",
+    "chairman": "Data Transparency Portal",
+    "allocation": 593440000.0,
+    "allocation_raw": "₦593.44M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Edu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 572570000.0,
+    "allocation_raw": "₦572.57M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Kaiama",
+    "chairman": "Data Transparency Portal",
+    "allocation": 562600000.0,
+    "allocation_raw": "₦562.60M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Ilorin South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 546640000.0,
+    "allocation_raw": "₦546.64M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Ilorin East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 541920000.0,
+    "allocation_raw": "₦541.92M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Pategi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 491310000.0,
+    "allocation_raw": "₦491.31M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Moro",
+    "chairman": "Data Transparency Portal",
+    "allocation": 483770000.0,
+    "allocation_raw": "₦483.77M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Irepodun",
+    "chairman": "Data Transparency Portal",
+    "allocation": 481540000.0,
+    "allocation_raw": "₦481.54M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Asa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 478400000.0,
+    "allocation_raw": "₦478.40M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Offa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 446190000.0,
+    "allocation_raw": "₦446.19M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Oyun",
+    "chairman": "Data Transparency Portal",
+    "allocation": 435360000.0,
+    "allocation_raw": "₦435.36M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Oke-Ero",
+    "chairman": "Data Transparency Portal",
+    "allocation": 395180000.0,
+    "allocation_raw": "₦395.18M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Isin",
+    "chairman": "Data Transparency Portal",
+    "allocation": 394940000.0,
+    "allocation_raw": "₦394.94M"
+  },
+  {
+    "state": "Kwara",
+    "lga": "Ekiti",
+    "chairman": "Data Transparency Portal",
+    "allocation": 392900000.0,
+    "allocation_raw": "₦392.90M"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Alimosho",
+    "chairman": "Data Transparency Portal",
+    "allocation": 2760000000.0,
+    "allocation_raw": "₦2.76B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Ajeromi-Ifelodun",
+    "chairman": "Data Transparency Portal",
+    "allocation": 2250000000.0,
+    "allocation_raw": "₦2.25B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Kosofe",
+    "chairman": "Data Transparency Portal",
+    "allocation": 2220000000.0,
+    "allocation_raw": "₦2.22B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Mushin",
+    "chairman": "Data Transparency Portal",
+    "allocation": 2200000000.0,
+    "allocation_raw": "₦2.20B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Oshodi-Isolo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 2190000000.0,
+    "allocation_raw": "₦2.19B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Ojo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 2170000000.0,
+    "allocation_raw": "₦2.17B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Ikorodu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 2140000000.0000002,
+    "allocation_raw": "₦2.14B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Surulere",
+    "chairman": "Data Transparency Portal",
+    "allocation": 2100000000.0,
+    "allocation_raw": "₦2.10B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Agege",
+    "chairman": "Data Transparency Portal",
+    "allocation": 2060000000.0,
+    "allocation_raw": "₦2.06B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Ifako-Ijaiye",
+    "chairman": "Data Transparency Portal",
+    "allocation": 2040000000.0,
+    "allocation_raw": "₦2.04B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Somolu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 2009999999.9999998,
+    "allocation_raw": "₦2.01B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Ikeja",
+    "chairman": "Data Transparency Portal",
+    "allocation": 1950000000.0,
+    "allocation_raw": "₦1.95B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Eti-Osa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 1940000000.0,
+    "allocation_raw": "₦1.94B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Amuwo-Odofin",
+    "chairman": "Data Transparency Portal",
+    "allocation": 1940000000.0,
+    "allocation_raw": "₦1.94B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Lagos Mainland",
+    "chairman": "Data Transparency Portal",
+    "allocation": 1940000000.0,
+    "allocation_raw": "₦1.94B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Badagry",
+    "chairman": "Data Transparency Portal",
+    "allocation": 1900000000.0,
+    "allocation_raw": "₦1.90B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Apapa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 1850000000.0,
+    "allocation_raw": "₦1.85B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Epe",
+    "chairman": "Data Transparency Portal",
+    "allocation": 1850000000.0,
+    "allocation_raw": "₦1.85B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Lagos Island",
+    "chairman": "Data Transparency Portal",
+    "allocation": 1850000000.0,
+    "allocation_raw": "₦1.85B"
+  },
+  {
+    "state": "Lagos",
+    "lga": "Ibeju-Lekki",
+    "chairman": "Data Transparency Portal",
+    "allocation": 1780000000.0,
+    "allocation_raw": "₦1.78B"
+  },
+  {
+    "state": "Nasarawa",
+    "lga": "Lafia",
+    "chairman": "Data Transparency Portal",
+    "allocation": 724920000.0,
+    "allocation_raw": "₦724.92M"
+  },
+  {
+    "state": "Nasarawa",
+    "lga": "Nasarawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 647770000.0,
+    "allocation_raw": "₦647.77M"
+  },
+  {
+    "state": "Nasarawa",
+    "lga": "Karu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 609710000.0,
+    "allocation_raw": "₦609.71M"
+  },
+  {
+    "state": "Nasarawa",
+    "lga": "Nasarawa Egon",
+    "chairman": "Data Transparency Portal",
+    "allocation": 535460000.00000006,
+    "allocation_raw": "₦535.46M"
+  },
+  {
+    "state": "Nasarawa",
+    "lga": "Toto",
+    "chairman": "Data Transparency Portal",
+    "allocation": 531650000.0,
+    "allocation_raw": "₦531.65M"
+  },
+  {
+    "state": "Nasarawa",
+    "lga": "Doma",
+    "chairman": "Data Transparency Portal",
+    "allocation": 531179999.99999994,
+    "allocation_raw": "₦531.18M"
+  },
+  {
+    "state": "Nasarawa",
+    "lga": "Obi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 521490000.0,
+    "allocation_raw": "₦521.49M"
+  },
+  {
+    "state": "Nasarawa",
+    "lga": "Awe",
+    "chairman": "Data Transparency Portal",
+    "allocation": 515260000.0,
+    "allocation_raw": "₦515.26M"
+  },
+  {
+    "state": "Nasarawa",
+    "lga": "Kokona",
+    "chairman": "Data Transparency Portal",
+    "allocation": 491280000.0,
+    "allocation_raw": "₦491.28M"
+  },
+  {
+    "state": "Nasarawa",
+    "lga": "Akwanga",
+    "chairman": "Data Transparency Portal",
+    "allocation": 479910000.0,
+    "allocation_raw": "₦479.91M"
+  },
+  {
+    "state": "Nasarawa",
+    "lga": "Keana",
+    "chairman": "Data Transparency Portal",
+    "allocation": 461570000.0,
+    "allocation_raw": "₦461.57M"
+  },
+  {
+    "state": "Nasarawa",
+    "lga": "Wamba",
+    "chairman": "Data Transparency Portal",
+    "allocation": 452260000.0,
+    "allocation_raw": "₦452.26M"
+  },
+  {
+    "state": "Nasarawa",
+    "lga": "Keffi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 449480000.0,
+    "allocation_raw": "₦449.48M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Borgu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 681270000.0,
+    "allocation_raw": "₦681.27M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Mashegu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 679330000.0,
+    "allocation_raw": "₦679.33M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Mokwa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 625280000.0,
+    "allocation_raw": "₦625.28M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Shiroro",
+    "chairman": "Data Transparency Portal",
+    "allocation": 621220000.0,
+    "allocation_raw": "₦621.22M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Mariga",
+    "chairman": "Data Transparency Portal",
+    "allocation": 605720000.0,
+    "allocation_raw": "₦605.72M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Rafi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 565690000.0,
+    "allocation_raw": "₦565.69M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Lavun",
+    "chairman": "Data Transparency Portal",
+    "allocation": 563720000.0,
+    "allocation_raw": "₦563.72M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Magama",
+    "chairman": "Data Transparency Portal",
+    "allocation": 563190000.0,
+    "allocation_raw": "₦563.19M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Rijau",
+    "chairman": "Data Transparency Portal",
+    "allocation": 543270000.0,
+    "allocation_raw": "₦543.27M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Paikoro",
+    "chairman": "Data Transparency Portal",
+    "allocation": 512080000.00000006,
+    "allocation_raw": "₦512.08M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Suleja",
+    "chairman": "Data Transparency Portal",
+    "allocation": 511520000.0,
+    "allocation_raw": "₦511.52M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Chanchaga",
+    "chairman": "Data Transparency Portal",
+    "allocation": 509740000.0,
+    "allocation_raw": "₦509.74M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Bida",
+    "chairman": "Data Transparency Portal",
+    "allocation": 506440000.0,
+    "allocation_raw": "₦506.44M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Edati",
+    "chairman": "Data Transparency Portal",
+    "allocation": 506150000.0,
+    "allocation_raw": "₦506.15M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Kontagora",
+    "chairman": "Data Transparency Portal",
+    "allocation": 505270000.0,
+    "allocation_raw": "₦505.27M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Agaie",
+    "chairman": "Data Transparency Portal",
+    "allocation": 494210000.0,
+    "allocation_raw": "₦494.21M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Bosso",
+    "chairman": "Data Transparency Portal",
+    "allocation": 487250000.0,
+    "allocation_raw": "₦487.25M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Lapai",
+    "chairman": "Data Transparency Portal",
+    "allocation": 485440000.0,
+    "allocation_raw": "₦485.44M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Gbako",
+    "chairman": "Data Transparency Portal",
+    "allocation": 480410000.0,
+    "allocation_raw": "₦480.41M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Katcha",
+    "chairman": "Data Transparency Portal",
+    "allocation": 468780000.0,
+    "allocation_raw": "₦468.78M"
+  },
+  {
+    "state": "Niger",
+    "lga": "Agwara",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14439873470.0,
+    "allocation_raw": "₦14,439,873,470"
+  },
+  {
+    "state": "Niger",
+    "lga": "Gurara",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14439873470.0,
+    "allocation_raw": "₦14,439,873,470"
+  },
+  {
+    "state": "Niger",
+    "lga": "Munya",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14439873470.0,
+    "allocation_raw": "₦14,439,873,470"
+  },
+  {
+    "state": "Niger",
+    "lga": "Tafa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14439873470.0,
+    "allocation_raw": "₦14,439,873,470"
+  },
+  {
+    "state": "Niger",
+    "lga": "Wushishi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 14439873470.0,
+    "allocation_raw": "₦14,439,873,470"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ado-Odo/Ota",
+    "chairman": "",
+    "allocation": 783990000.0,
+    "allocation_raw": "₦783.99M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Remo North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 767050000.0,
+    "allocation_raw": "₦767.05M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ijebu East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 581380000.0,
+    "allocation_raw": "₦581.38M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Shagamu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 547540000.0,
+    "allocation_raw": "₦547.54M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ipokia",
+    "chairman": "Data Transparency Portal",
+    "allocation": 536750000.0,
+    "allocation_raw": "₦536.75M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Abeokuta South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 536429999.99999994,
+    "allocation_raw": "₦536.43M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Yewa North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 518440000.00000006,
+    "allocation_raw": "₦518.44M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Abeokuta North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 511820000.0,
+    "allocation_raw": "₦511.82M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Yewa South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 482770000.0,
+    "allocation_raw": "₦482.77M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ifo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 467310000.0,
+    "allocation_raw": "₦467.31M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ijebu Ode",
+    "chairman": "Data Transparency Portal",
+    "allocation": 465750000.0,
+    "allocation_raw": "₦465.75M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Imeko Afon",
+    "chairman": "Data Transparency Portal",
+    "allocation": 459350000.0,
+    "allocation_raw": "₦459.35M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Obafemi Owode",
+    "chairman": "Data Transparency Portal",
+    "allocation": 453020000.0,
+    "allocation_raw": "₦453.02M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Odeda",
+    "chairman": "Data Transparency Portal",
+    "allocation": 439190000.0,
+    "allocation_raw": "₦439.19M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ikenne",
+    "chairman": "Data Transparency Portal",
+    "allocation": 429650000.0,
+    "allocation_raw": "₦429.65M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ijebu North East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 426060000.0,
+    "allocation_raw": "₦426.06M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Odogbolu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 410090000.0,
+    "allocation_raw": "₦410.09M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ijebu North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 394330000.0,
+    "allocation_raw": "₦394.33M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ewekoro",
+    "chairman": "Data Transparency Portal",
+    "allocation": 382170000.0,
+    "allocation_raw": "₦382.17M"
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ogun Waterside",
+    "chairman": "Data Transparency Portal",
+    "allocation": 379080000.0,
+    "allocation_raw": "₦379.08M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Akure South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 640910000.0,
+    "allocation_raw": "₦640.91M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Ondo West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 594840000.0,
+    "allocation_raw": "₦594.84M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Ilaje",
+    "chairman": "Data Transparency Portal",
+    "allocation": 593640000.0,
+    "allocation_raw": "₦593.64M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Owo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 555600000.0,
+    "allocation_raw": "₦555.60M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Odigbo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 548340000.0,
+    "allocation_raw": "₦548.34M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Akoko South East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 541510000.0,
+    "allocation_raw": "₦541.51M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Akoko North West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 531070000.00000006,
+    "allocation_raw": "₦531.07M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Okitipupa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 531000000.0,
+    "allocation_raw": "₦531.00M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Akoko North East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 502300000.0,
+    "allocation_raw": "₦502.30M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Ose",
+    "chairman": "Data Transparency Portal",
+    "allocation": 483710000.0,
+    "allocation_raw": "₦483.71M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Irele",
+    "chairman": "Data Transparency Portal",
+    "allocation": 483250000.0,
+    "allocation_raw": "₦483.25M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Ile Oluji/Okeigbo",
+    "chairman": "",
+    "allocation": 476320000.0,
+    "allocation_raw": "₦476.32M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Ese Odo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 475580000.0,
+    "allocation_raw": "₦475.58M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Idanre",
+    "chairman": "Data Transparency Portal",
+    "allocation": 468530000.0,
+    "allocation_raw": "₦468.53M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Ifedore",
+    "chairman": "Data Transparency Portal",
+    "allocation": 462480000.0,
+    "allocation_raw": "₦462.48M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Akure North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 441180000.0,
+    "allocation_raw": "₦441.18M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Akoko South West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 414800000.0,
+    "allocation_raw": "₦414.80M"
+  },
+  {
+    "state": "Ondo",
+    "lga": "Ondo East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 391600000.0,
+    "allocation_raw": "₦391.60M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Ife East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 508220000.0,
+    "allocation_raw": "₦508.22M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Odo-Otin",
+    "chairman": "Data Transparency Portal",
+    "allocation": 505510000.0,
+    "allocation_raw": "₦505.51M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Iwo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 496460000.0,
+    "allocation_raw": "₦496.46M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Ife North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 477060000.0,
+    "allocation_raw": "₦477.06M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Ife Central",
+    "chairman": "Data Transparency Portal",
+    "allocation": 461040000.0,
+    "allocation_raw": "₦461.04M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Ayedaade",
+    "chairman": "Data Transparency Portal",
+    "allocation": 461030000.0,
+    "allocation_raw": "₦461.03M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Oriade",
+    "chairman": "Data Transparency Portal",
+    "allocation": 456420000.0,
+    "allocation_raw": "₦456.42M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Osogbo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 453780000.0,
+    "allocation_raw": "₦453.78M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Irewole",
+    "chairman": "Data Transparency Portal",
+    "allocation": 451560000.0,
+    "allocation_raw": "₦451.56M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Olorunda",
+    "chairman": "Data Transparency Portal",
+    "allocation": 450360000.0,
+    "allocation_raw": "₦450.36M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Boripe",
+    "chairman": "",
+    "allocation": 445010000.0,
+    "allocation_raw": "₦445.01M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Ejigbo",
+    "chairman": "",
+    "allocation": 435790000.0,
+    "allocation_raw": "₦435.79M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Ife South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 435230000.0,
+    "allocation_raw": "₦435.23M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Ifelodun",
+    "chairman": "",
+    "allocation": 426380000.0,
+    "allocation_raw": "₦426.38M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Irepodun",
+    "chairman": "",
+    "allocation": 424450000.0,
+    "allocation_raw": "₦424.45M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Obokun",
+    "chairman": "Data Transparency Portal",
+    "allocation": 423860000.0,
+    "allocation_raw": "₦423.86M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Ilesa West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 422020000.0,
+    "allocation_raw": "₦422.02M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Isokan",
+    "chairman": "Data Transparency Portal",
+    "allocation": 415090000.0,
+    "allocation_raw": "₦415.09M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Orolu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 411130000.0,
+    "allocation_raw": "₦411.13M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Ilesa East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 409310000.0,
+    "allocation_raw": "₦409.31M"
+  },
+  {
+    "state": "Osun",
+    "lga": "Aiyedire",
+    "chairman": "",
+    "allocation": 12013362125.0,
+    "allocation_raw": "₦12,013,362,125"
+  },
+  {
+    "state": "Osun",
+    "lga": "Atakunmosa East",
+    "chairman": "Data Transparency Portal",
+    "allocation": 12013362125.0,
+    "allocation_raw": "₦12,013,362,125"
+  },
+  {
+    "state": "Osun",
+    "lga": "Atakunmosa West",
+    "chairman": "Data Transparency Portal",
+    "allocation": 12013362125.0,
+    "allocation_raw": "₦12,013,362,125"
+  },
+  {
+    "state": "Osun",
+    "lga": "Boluwaduro",
+    "chairman": "Data Transparency Portal",
+    "allocation": 12013362125.0,
+    "allocation_raw": "₦12,013,362,125"
+  },
+  {
+    "state": "Osun",
+    "lga": "Ede South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 12013362125.0,
+    "allocation_raw": "₦12,013,362,125"
+  },
+  {
+    "state": "Osun",
+    "lga": "Egbedore",
+    "chairman": "Data Transparency Portal",
+    "allocation": 12013362125.0,
+    "allocation_raw": "₦12,013,362,125"
+  },
+  {
+    "state": "Osun",
+    "lga": "Ifedayo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 12013362125.0,
+    "allocation_raw": "₦12,013,362,125"
+  },
+  {
+    "state": "Osun",
+    "lga": "Ila",
+    "chairman": "Data Transparency Portal",
+    "allocation": 12013362125.0,
+    "allocation_raw": "₦12,013,362,125"
+  },
+  {
+    "state": "Osun",
+    "lga": "Ola-Oluwa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 12013362125.0,
+    "allocation_raw": "₦12,013,362,125"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Gada",
+    "chairman": "",
+    "allocation": 598110000.0,
+    "allocation_raw": "₦598.11M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Tambuwal",
+    "chairman": "",
+    "allocation": 583470000.0,
+    "allocation_raw": "₦583.47M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Gwadabawa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 583380000.0,
+    "allocation_raw": "₦583.38M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Sabon Birni",
+    "chairman": "Data Transparency Portal",
+    "allocation": 579580000.0,
+    "allocation_raw": "₦579.58M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Goronyo",
+    "chairman": "Data Transparency Portal",
+    "allocation": 556400000.0,
+    "allocation_raw": "₦556.40M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Dange/Shuni",
+    "chairman": "",
+    "allocation": 553130000.0,
+    "allocation_raw": "₦553.13M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Sokoto North",
+    "chairman": "Data Transparency Portal",
+    "allocation": 550900000.0,
+    "allocation_raw": "₦550.90M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Isa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 545060000.0,
+    "allocation_raw": "₦545.06M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Rabah",
+    "chairman": "",
+    "allocation": 544940000.0,
+    "allocation_raw": "₦544.94M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Sokoto South",
+    "chairman": "Data Transparency Portal",
+    "allocation": 536600000.0,
+    "allocation_raw": "₦536.60M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Shagari",
+    "chairman": "Data Transparency Portal",
+    "allocation": 528809999.99999994,
+    "allocation_raw": "₦528.81M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Bodinga",
+    "chairman": "Data Transparency Portal",
+    "allocation": 523380000.0,
+    "allocation_raw": "₦523.38M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Wamako",
+    "chairman": "Data Transparency Portal",
+    "allocation": 521950000.00000006,
+    "allocation_raw": "₦521.95M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Tangaza",
+    "chairman": "Data Transparency Portal",
+    "allocation": 521650000.0,
+    "allocation_raw": "₦521.65M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Illela",
+    "chairman": "Data Transparency Portal",
+    "allocation": 507090000.0,
+    "allocation_raw": "₦507.09M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Kebbe",
+    "chairman": "Data Transparency Portal",
+    "allocation": 505650000.0,
+    "allocation_raw": "₦505.65M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Wurno",
+    "chairman": "Data Transparency Portal",
+    "allocation": 505090000.0,
+    "allocation_raw": "₦505.09M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Gudu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 497850000.0,
+    "allocation_raw": "₦497.85M"
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Yabo",
+    "chairman": "",
+    "allocation": 14583078209.0,
+    "allocation_raw": "₦14,583,078,209"
+  },
+  {
+    "state": "Taraba",
+    "lga": "Yorro",
+    "chairman": "Data Transparency Portal",
+    "allocation": 447930000.0,
+    "allocation_raw": "₦447.93M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Fune",
+    "chairman": "Data Transparency Portal",
+    "allocation": 690560000.0,
+    "allocation_raw": "₦690.56M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Jakusko",
+    "chairman": "Data Transparency Portal",
+    "allocation": 612910000.0,
+    "allocation_raw": "₦612.91M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Geidam",
+    "chairman": "Data Transparency Portal",
+    "allocation": 570620000.0,
+    "allocation_raw": "₦570.62M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Potiskum",
+    "chairman": "Data Transparency Portal",
+    "allocation": 554370000.0,
+    "allocation_raw": "₦554.37M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Gujba",
+    "chairman": "Data Transparency Portal",
+    "allocation": 533200000.00000006,
+    "allocation_raw": "₦533.20M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Bursari",
+    "chairman": "Data Transparency Portal",
+    "allocation": 525620000.0,
+    "allocation_raw": "₦525.62M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Yunusari",
+    "chairman": "Data Transparency Portal",
+    "allocation": 518419999.99999994,
+    "allocation_raw": "₦518.42M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Fika",
+    "chairman": "Data Transparency Portal",
+    "allocation": 513250000.0,
+    "allocation_raw": "₦513.25M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Yusufari",
+    "chairman": "Data Transparency Portal",
+    "allocation": 513090000.00000006,
+    "allocation_raw": "₦513.09M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Nguru",
+    "chairman": "Data Transparency Portal",
+    "allocation": 506780000.0,
+    "allocation_raw": "₦506.78M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Bade",
+    "chairman": "Data Transparency Portal",
+    "allocation": 502810000.0,
+    "allocation_raw": "₦502.81M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Tarmuwa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 490300000.0,
+    "allocation_raw": "₦490.30M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Gulani",
+    "chairman": "Data Transparency Portal",
+    "allocation": 480820000.0,
+    "allocation_raw": "₦480.82M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Damaturu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 464520000.0,
+    "allocation_raw": "₦464.52M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Nangere",
+    "chairman": "Data Transparency Portal",
+    "allocation": 462870000.0,
+    "allocation_raw": "₦462.87M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Karasuwa",
+    "chairman": "Data Transparency Portal",
+    "allocation": 461470000.0,
+    "allocation_raw": "₦461.47M"
+  },
+  {
+    "state": "Yobe",
+    "lga": "Machina",
+    "chairman": "Data Transparency Portal",
+    "allocation": 435960000.0,
+    "allocation_raw": "₦435.96M"
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Gusau",
+    "chairman": "Data Transparency Portal",
+    "allocation": 732450000.0,
+    "allocation_raw": "₦732.45M"
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Maru",
+    "chairman": "Data Transparency Portal",
+    "allocation": 696410000.0,
+    "allocation_raw": "₦696.41M"
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Zurmi",
+    "chairman": "Data Transparency Portal",
+    "allocation": 626010000.0,
+    "allocation_raw": "₦626.01M"
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Bungudu",
+    "chairman": "Data Transparency Portal",
+    "allocation": 613870000.0,
+    "allocation_raw": "₦613.87M"
+  }
+]
