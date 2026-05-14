@@ -119,8 +119,8 @@ const ExploreLGAs = () => {
                 {/* Results Count */}
                 <div className="mb-6 text-center animate-in fade-in duration-500 delay-300">
                     <p className="text-sm text-muted-foreground">
-                        Showing <span className="font-semibold text-foreground">{filteredLGAs.length}</span> of{" "}
-                        <span className="font-semibold text-foreground">{allLGAs.length}</span> LGAs
+                        Showing <span className="font-semibold text-foreground">{selectedState === "all" && !searchQuery ? 774 : filteredLGAs.length}</span> of{" "}
+                        <span className="font-semibold text-foreground">774</span> LGAs
                     </p>
                 </div>
 
@@ -165,18 +165,6 @@ const ExploreLGAs = () => {
                                     </div>
                                     <h3 className="text-xl font-bold mb-2 line-clamp-1" title={lga.name}>{lga.name}</h3>
                                     
-                                    {/* Financial Mini-Stat */}
-                                    <div className="mb-4 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-700/50">
-                                        <div className="flex items-center justify-between">
-                                            <span className="text-xs text-muted-foreground uppercase tracking-wider font-semibold">Monthly FAAC</span>
-                                            <span className="text-xs text-green-600 dark:text-green-400 font-bold">March</span>
-                                        </div>
-                                        <div className="mt-1 flex items-baseline gap-1">
-                                            <span className="text-xl font-bold text-slate-900 dark:text-white">
-                                                {formatCurrency((lga.annual_budget && lga.annual_budget > 0) ? lga.annual_budget : getLgaMarchAllocation(lga.name, lga.state) * 1_000_000_000)}
-                                            </span>
-                                        </div>
-                                    </div>
 
                                     <div className="flex flex-col gap-1 mb-4">
                                         <p className="text-xs font-bold text-primary uppercase tracking-widest">Chairman</p>
